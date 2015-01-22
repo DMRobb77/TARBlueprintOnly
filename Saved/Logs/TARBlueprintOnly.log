@@ -1,0 +1,638 @@
+﻿Log file open, 01/21/15 20:24:09
+LogInit:Display: Running engine for game: TARBlueprintOnly
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.22-02.24.09:486][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.22-02.24.09:517][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.22-02.24.09:538][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.22-02.24.09:550][  0]LogInit: Object subsystem initialized
+[2015.01.22-02.24.09:553][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.22-02.24.09:553][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.22-02.24.09:553][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.01.22-02.24.09:553][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.22-02.24.09:554][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.22-02.24.09:554][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.22-02.24.09:560][  0]LogInit: Computer: ONO-SENDAI8
+[2015.01.22-02.24.09:560][  0]LogInit: User: Dalton
+[2015.01.22-02.24.09:561][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.22-02.24.09:561][  0]LogInit: High frequency timer resolution =3.320346 MHz
+[2015.01.22-02.24.09:561][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.22-02.24.09:561][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.22-02.24.09:561][  0]LogMemory: Process Physical Memory: 67.29 MB used, 67.29 MB peak
+[2015.01.22-02.24.09:561][  0]LogMemory: Process Virtual Memory: 42.70 MB used, 42.70 MB peak
+[2015.01.22-02.24.09:561][  0]LogMemory: Physical Memory: 2759.98 MB used, 8087.00 MB total
+[2015.01.22-02.24.09:561][  0]LogMemory: Virtual Memory: 286.25 MB used, 134217728.00 MB total
+[2015.01.22-02.24.09:589][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.01.22-02.24.09:589][  0]LogD3D11RHI: Adapter has 3906MB of dedicated video memory, 0MB of dedicated system memory, and 4043MB of shared system memory, 2 output[s]
+[2015.01.22-02.24.09:592][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.22-02.24.09:592][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.01.22-02.24.09:593][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.22-02.24.09:593][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.22-02.24.09:593][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.22-02.24.09:596][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.22-02.24.09:608][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.22-02.24.09:656][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.22-02.24.09:780][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.22-02.24.14:013][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-02.24.14:413][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-02.24.14:457][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.22-02.24.14:492][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.22-02.24.14:492][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.01.22-02.24.14:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.22-02.24.14:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.22-02.24.14:548][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.22-02.24.14:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dalton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.22-02.24.14:715][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.22-02.24.14:715][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.22-02.24.14:919][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.22-02.24.14:922][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.22-02.24.15:082][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.22-02.24.15:848][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.22-02.24.16:008][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Binaries/Win64. Error: 0
+[2015.01.22-02.24.16:124][  0]SourceControl: Info Source control is disabled
+[2015.01.22-02.24.16:124][  0]SourceControl: Info Source control is disabled
+[2015.01.22-02.24.16:131][  0]SourceControl: Info Source control is disabled
+[2015.01.22-02.24.16:183][  0]LogFMOD:Warning: FFMODStudioModule startup
+[2015.01.22-02.24.16:183][  0]LogFMOD:Warning: FFMODStudioModule::LoadDll
+[2015.01.22-02.24.16:183][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodL64.dll
+[2015.01.22-02.24.16:184][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodstudioL64.dll
+[2015.01.22-02.24.16:241][  0]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.strings.bank' returned archive 0000000291C3F900
+[2015.01.22-02.24.16:241][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2015.01.22-02.24.16:260][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.01.22-02.24.16:260][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.22-02.24.16:260][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience
+[2015.01.22-02.24.16:260][  0]LogFMOD: Skippping asset: bus:/
+[2015.01.22-02.24.16:260][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2015.01.22-02.24.16:260][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jumpswoosh
+[2015.01.22-02.24.16:260][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jump
+[2015.01.22-02.24.16:260][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Steps
+[2015.01.22-02.24.16:336][  0]LogObj: 23051 objects as part of root set at end of initial load.
+[2015.01.22-02.24.16:337][  0]LogUObjectAllocator: 4828848 out of 0 bytes used by permanent object pool.
+[2015.01.22-02.24.16:390][  0]LogEngine: Initializing Engine...
+[2015.01.22-02.24.16:512][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar Essence STX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.22-02.24.16:518][  0]LogInit: FAudioDevice initialized.
+[2015.01.22-02.24.16:536][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.22-02.24.16:555][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.22-02.24.16:557][  0]LogInit: Texture streaming: Enabled
+[2015.01.22-02.24.16:593][  0]LogInit: Transaction tracking system initialized
+[2015.01.22-02.24.16:672][  0]BlueprintLog: New page: Editor Load
+[2015.01.22-02.24.17:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-02.24.17:384][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-02.24.17:550][  0]LogConsoleResponse:Display: 
+[2015.01.22-02.24.17:716][  0]SourceControl: Info Source control is disabled
+[2015.01.22-02.25.03:076][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/Test_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.22-02.25.03:076][  0]LightingResults: New page: Lighting Build
+[2015.01.22-02.25.03:085][  0]MapCheck: New page: Map Check
+[2015.01.22-02.25.03:085][  0]LightingResults: New page: Lighting Build
+[2015.01.22-02.25.03:099][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000029649AA20
+[2015.01.22-02.25.04:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.22-02.25.04:330][  0]LogAIModule: Creating AISystem for world Test_Map
+[2015.01.22-02.25.04:330][  0]Cmd: MAP CHECKDEP
+[2015.01.22-02.25.04:330][  0]MapCheck: New page: Test_Map - Jan 21, 2015, 2:25:04 PM
+[2015.01.22-02.25.04:489][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.801ms to complete.
+[2015.01.22-02.25.04:489][  0]LogFileHelpers: Loading map 'Test_Map' took 1.414
+[2015.01.22-02.25.04:528][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2a08_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_39dc_0///////STATCAT_Advanced////
+[2015.01.22-02.25.04:528][  0]LogCollectionManager: Loaded 0 collections in 0.000845 seconds
+[2015.01.22-02.25.04:705][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.22-02.25.04:800][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.22-02.25.04:828][  0]LogLoad: Full Startup: 57.44 seconds (BP compile: 0.45 seconds)
+[2015.01.22-02.25.04:841][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-02.25.04:981][  0]LogRenderer:Warning: Reallocating scene render targets to support 1128x904.
+[2015.01.22-02.25.05:166][  3]LogAssetRegistry: Asset discovery search completed in 48.9180 seconds
+[2015.01.22-02.25.50:626][514]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.25.52:687][687]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.25.52:898][700]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.22-02.25.52:899][700]LightingResults: New page: Lighting Build
+[2015.01.22-02.25.52:931][700]LoadErrors: New page: Loading map: EnemyTest.umap
+[2015.01.22-02.25.52:932][700]MapCheck: New page: Map Check
+[2015.01.22-02.25.52:932][700]LightingResults: New page: Lighting Build
+[2015.01.22-02.25.52:952][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028C0509A0
+[2015.01.22-02.25.53:327][700]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:UserConstructionScript; removing parent information, but keeping function
+[2015.01.22-02.25.53:327][700]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_25_ComponentEndOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.22-02.25.53:327][700]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_11_ComponentBeginOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.22-02.25.53:527][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.22-02.25.53:527][700]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.25.53:691][700]Cmd: MAP CHECKDEP
+[2015.01.22-02.25.53:692][700]MapCheck: New page: EnemyTest - Jan 21, 2015, 2:25:53 PM
+[2015.01.22-02.25.53:844][700]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.41ms to complete.
+[2015.01.22-02.25.53:844][700]LogFileHelpers: Loading map 'EnemyTest' took 0.948
+[2015.01.22-02.26.20:072][382]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.01.22-02.26.39:410][ 42]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.26.51:893][168]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.27.04:919][332]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.27.10:419][819]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.27.24:767][ 52]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.27.36:411][ 19]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.01.22-02.27.37:420][106]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.27.40:101][312]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.27.41:447][426]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.27.42:509][517]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.27.44:002][628]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.27.44:009][628]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.27.44:009][628]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.27.44:084][628]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002997EF900
+[2015.01.22-02.27.44:084][628]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.27.44:084][628]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.22-02.27.44:146][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.22-02.27.44:184][628]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.01.22-02.27.44:184][628]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:27:44 PM)
+[2015.01.22-02.27.44:196][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011839s)
+[2015.01.22-02.27.44:197][628]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2015.01.22-02.27.44:197][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012490s)
+[2015.01.22-02.27.44:244][628]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.27.44:247][628]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.27.44:250][628]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.27.44
+[2015.01.22-02.27.44:251][628]LogWorld: Bringing up level for play took: 0.003432
+[2015.01.22-02.27.44:254][628]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.677
+[2015.01.22-02.27.44:295][629]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.27.44:319][630]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.27.44:319][630]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.27.44:319][630]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.27.44:319][630]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.27.52:906][504]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_1.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.27.52:906][504]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_0.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.27.52:942][505]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028B751080
+[2015.01.22-02.30.33:015][233]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2015.01.22-02.30.37:053][551]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.30.39:807][766]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.30.43:504][ 63]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.32.02:156][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.22-02.32.02:637][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Objects'
+[2015.01.22-02.32.04:372][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-02.32.05:146][597]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.22-02.32.07:985][850]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Objects'
+[2015.01.22-02.32.09:720][ 17]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.01.22-02.32.14:922][467]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.32.14:928][467]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.32.14:929][467]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.32.15:005][467]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A5F63900
+[2015.01.22-02.32.15:005][467]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.32.15:005][467]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:32:15 PM)
+[2015.01.22-02.32.15:017][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011515s)
+[2015.01.22-02.32.15:017][467]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2015.01.22-02.32.15:017][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012216s)
+[2015.01.22-02.32.15:050][467]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.32.15:054][467]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.32.15:056][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.32.15
+[2015.01.22-02.32.15:072][467]LogWorld: Bringing up level for play took: 0.018130
+[2015.01.22-02.32.15:074][467]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.503
+[2015.01.22-02.32.15:114][468]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.15:134][469]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.15:134][469]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.15:134][469]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.15:134][469]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.18:423][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.22-02.32.18:423][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.22-02.32.18:446][825]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_3.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.32.18:446][825]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_2.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.32.18:448][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000291BDEAC0
+[2015.01.22-02.32.19:382][899]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.32.19:389][899]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.32.19:389][899]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.32.19:463][899]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A6E6B900
+[2015.01.22-02.32.19:463][899]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.32.19:463][899]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:32:19 PM)
+[2015.01.22-02.32.19:475][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012117s)
+[2015.01.22-02.32.19:476][899]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2015.01.22-02.32.19:476][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012839s)
+[2015.01.22-02.32.19:507][899]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.32.19:510][899]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.32.19:512][899]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.32.19
+[2015.01.22-02.32.19:513][899]LogWorld: Bringing up level for play took: 0.003226
+[2015.01.22-02.32.19:516][899]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.061
+[2015.01.22-02.32.19:552][901]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.19:570][902]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.19:570][902]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.19:570][902]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.19:570][902]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.32.26:163][574]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_5.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.32.26:163][574]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_4.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.32.26:198][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028BE56F20
+[2015.01.22-02.32.37:766][673]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.22-02.32.55:560][235]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.22-02.33.06:432][ 49]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.33.15:258][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.22-02.33.40:822][861]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.34.20:547][107]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.34.20:632][112]BlueprintLog: New page: Compile RespawnPoint
+[2015.01.22-02.34.20:753][112]BlueprintEditorCompileResults: Info [0613.26] Compile of RespawnPoint successful! [in 4 ms]
+[2015.01.22-02.34.27:704][601]LogLinker:Warning: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.27:704][601]LogLinker: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.27:704][601]LogLinker:Warning: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.27:704][601]LogLinker: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.28:475][650]LogLinker:Warning: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.28:475][650]LogLinker: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.28:475][650]LogLinker:Warning: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.28:475][650]LogLinker: Can't find file '/Game/Blueprints/RespawnPoint'
+[2015.01.22-02.34.41:067][569]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.35.17:211][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.22-02.35.28:939][301]BlueprintLog: New page: Compile RespawnPoint
+[2015.01.22-02.35.29:076][301]BlueprintEditorCompileResults: Info [0681.57] Compile of RespawnPoint successful! [in 3 ms]
+[2015.01.22-02.35.35:164][766]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.35.35:171][766]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.35.35:171][766]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.35.35:245][766]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A4D97900
+[2015.01.22-02.35.35:245][766]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.35.35:245][766]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:35:35 PM)
+[2015.01.22-02.35.35:259][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013893s)
+[2015.01.22-02.35.35:259][766]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2015.01.22-02.35.35:259][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.014595s)
+[2015.01.22-02.35.35:294][766]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.35.35:298][766]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.35.35:300][766]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.35.35
+[2015.01.22-02.35.35:301][766]LogWorld: Bringing up level for play took: 0.003536
+[2015.01.22-02.35.35:304][766]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.272
+[2015.01.22-02.35.35:356][768]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.35.35:374][769]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.35.35:374][769]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.35.35:387][770]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.35.35:387][770]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.35.37:874][973]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_7.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.35.37:875][973]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_6.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.35.37:877][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000029D0DD260
+[2015.01.22-02.35.41:435][231]LogEditorViewport: Clicking on Actor (LMB): RespawnPoint_C (RespawnPoint)
+[2015.01.22-02.35.51:922][185]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.35.52:925][289]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.35.58:726][892]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.36.03:462][434]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.36.07:654][923]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.36.11:268][249]LogSavePackage: Save=58.758938ms
+[2015.01.22-02.36.11:269][249]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest_Auto1A3C80C274EFEA0EB405F76A135B62964.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Maps/EnemyTest_Auto1.umap'
+[2015.01.22-02.36.11:277][249]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.211
+[2015.01.22-02.36.11:277][249]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2015.01.22-02.36.11:289][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/RespawnPoint] ([1] browsable assets)...
+[2015.01.22-02.36.11:311][249]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RespawnPoint.RespawnPoint]
+[2015.01.22-02.36.11:311][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RespawnPoint]
+[2015.01.22-02.36.11:698][249]LogSavePackage: Save=365.502869ms
+[2015.01.22-02.36.11:698][249]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RespawnPoint_Auto1C5A9EC334386355C4BE83C8F2C357AF8.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Blueprints/RespawnPoint_Auto1.uasset'
+[2015.01.22-02.36.11:707][249]LogFileHelpers: Auto-saving content packages took 0.430
+[2015.01.22-02.36.17:904][917]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.36.36:075][944]LogEditorTransaction: Undo Remove Component
+[2015.01.22-02.36.40:083][341]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.36.42:703][614]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.37.46:400][807]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.37.58:320][992]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.38.00:655][262]BlueprintLog: New page: Compile RespawnPoint
+[2015.01.22-02.38.00:797][262]BlueprintEditorCompileResults: Info [0833.28] Compile of RespawnPoint successful! [in 3 ms]
+[2015.01.22-02.38.02:460][393]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.38.02:466][393]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.38.02:466][393]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.38.02:550][393]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A83A3900
+[2015.01.22-02.38.02:550][393]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.38.02:550][393]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:38:02 PM)
+[2015.01.22-02.38.02:563][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013032s)
+[2015.01.22-02.38.02:564][393]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2015.01.22-02.38.02:564][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.013710s)
+[2015.01.22-02.38.02:594][393]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.38.02:597][393]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.38.02:600][393]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.38.02
+[2015.01.22-02.38.02:601][393]LogWorld: Bringing up level for play took: 0.003869
+[2015.01.22-02.38.02:604][393]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.027
+[2015.01.22-02.38.02:662][396]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.02:682][397]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.02:682][397]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.02:694][398]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.02:694][398]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.07:192][777]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_9.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.38.07:192][777]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_8.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.38.07:195][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002A9450C20
+[2015.01.22-02.38.50:540][769]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.38.52:124][948]BlueprintLog: New page: Compile RespawnPoint
+[2015.01.22-02.38.52:250][948]BlueprintEditorCompileResults: Info [0884.75] Compile of RespawnPoint successful! [in 3 ms]
+[2015.01.22-02.38.53:396][ 30]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.38.53:403][ 30]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.38.53:403][ 30]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.38.53:477][ 30]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000029DC07900
+[2015.01.22-02.38.53:477][ 30]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.38.53:477][ 30]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:38:53 PM)
+[2015.01.22-02.38.53:490][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012929s)
+[2015.01.22-02.38.53:490][ 30]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2015.01.22-02.38.53:491][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.013606s)
+[2015.01.22-02.38.53:520][ 30]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.38.53:523][ 30]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.38.53:526][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.38.53
+[2015.01.22-02.38.53:527][ 30]LogWorld: Bringing up level for play took: 0.003645
+[2015.01.22-02.38.53:529][ 30]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.047
+[2015.01.22-02.38.53:599][ 34]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.53:599][ 34]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.53:613][ 35]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.53:613][ 35]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.53:613][ 35]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.38.56:741][304]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_11.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.38.56:741][304]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_10.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.38.56:742][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000029D0DDD00
+[2015.01.22-02.38.59:945][637]BlueprintLog: New page: Compile RespawnPoint
+[2015.01.22-02.39.00:073][637]BlueprintEditorCompileResults: Info [0892.57] Compile of RespawnPoint successful! [in 4 ms]
+[2015.01.22-02.39.01:156][716]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.39.01:162][716]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.39.01:162][716]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.39.01:236][716]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002AF1DF900
+[2015.01.22-02.39.01:236][716]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.39.01:236][716]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:39:01 PM)
+[2015.01.22-02.39.01:248][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012033s)
+[2015.01.22-02.39.01:249][716]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2015.01.22-02.39.01:249][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012732s)
+[2015.01.22-02.39.01:280][716]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.39.01:283][716]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.39.01:286][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.39.01
+[2015.01.22-02.39.01:287][716]LogWorld: Bringing up level for play took: 0.003722
+[2015.01.22-02.39.01:290][716]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.287
+[2015.01.22-02.39.01:349][719]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.39.01:364][720]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.39.01:364][720]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.39.01:364][720]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.39.01:364][720]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.39.07:731][260]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service BTS_mobDetectEnemy_C_19 with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_12.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.39.07:731][260]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: None.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.39.07:733][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000299AF5620
+[2015.01.22-02.39.22:547][367]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.39.38:191][610]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.39.55:352][985]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.39.55:409][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.39.56:358][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.39.57:040][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.39.57:505][160]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (Health, Death, and Respawn)
+[2015.01.22-02.40.21:143][923]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.40.21:154][923]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.40.21:154][923]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.40.21:228][923]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002AEFF7900
+[2015.01.22-02.40.21:228][923]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.40.21:228][923]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:40:21 PM)
+[2015.01.22-02.40.21:241][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012679s)
+[2015.01.22-02.40.21:241][923]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2015.01.22-02.40.21:241][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.013415s)
+[2015.01.22-02.40.21:272][923]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.40.21:276][923]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.40.21:279][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.40.21
+[2015.01.22-02.40.21:280][923]LogWorld: Bringing up level for play took: 0.003874
+[2015.01.22-02.40.21:282][923]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.294
+[2015.01.22-02.40.21:349][926]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.21:349][926]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.21:362][927]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.21:362][927]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.21:362][927]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.27:336][520]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_15.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.40.27:336][520]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_14.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.40.27:337][520]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028C6414E0
+[2015.01.22-02.40.41:572][651]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.40.41:744][659]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.40.41:751][659]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.40.41:751][659]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.40.41:825][659]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A8A8F900
+[2015.01.22-02.40.41:825][659]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.40.41:825][659]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:40:41 PM)
+[2015.01.22-02.40.41:837][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012423s)
+[2015.01.22-02.40.41:838][659]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2015.01.22-02.40.41:838][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.013116s)
+[2015.01.22-02.40.41:869][659]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.40.41:873][659]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.40.41:876][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.40.41
+[2015.01.22-02.40.41:877][659]LogWorld: Bringing up level for play took: 0.004386
+[2015.01.22-02.40.41:880][659]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.304
+[2015.01.22-02.40.41:947][663]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.41:947][663]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.41:958][664]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.41:958][664]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.40.41:958][664]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.41.00:863][577]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_17.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.41.00:863][577]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_16.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.41.00:898][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028AF602C0
+[2015.01.22-02.41.41:804][865]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.41.43:955][ 18]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor_2)
+[2015.01.22-02.42.11:144][176]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor_2)
+[2015.01.22-02.42.30:534][671]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.42.30:542][671]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.42.30:542][671]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.42.30:617][671]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002AFB3B900
+[2015.01.22-02.42.30:617][671]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.42.30:617][671]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:42:30 PM)
+[2015.01.22-02.42.30:630][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013332s)
+[2015.01.22-02.42.30:631][671]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2015.01.22-02.42.30:631][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.014133s)
+[2015.01.22-02.42.30:665][671]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.42.30:669][671]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.42.30:672][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.42.30
+[2015.01.22-02.42.30:674][671]LogWorld: Bringing up level for play took: 0.004487
+[2015.01.22-02.42.30:677][671]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.101
+[2015.01.22-02.42.30:739][673]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.42.30:740][673]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.42.30:753][674]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.42.30:753][674]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.42.30:753][674]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000002A413F900
+[2015.01.22-02.42.54:792][ 96]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_19.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.42.54:792][ 96]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_18.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.42.54:794][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002A5BF71A0
+[2015.01.22-02.42.57:647][251]LogSavePackage: Save=55.744492ms
+[2015.01.22-02.42.57:647][251]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest2E1130674E6348FFC26596BC64515035.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap'
+[2015.01.22-02.42.57:810][251]LogFileHelpers: Saving map 'EnemyTest' took 0.851
+[2015.01.22-02.42.57:824][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RespawnPoint" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/RespawnPoint.uasset" SILENT=true
+[2015.01.22-02.42.58:115][251]LogSavePackage: Save=288.686768ms
+[2015.01.22-02.42.58:115][251]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RespawnPointF2FCA32641CD72EAF8E9B591DDB9F219.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/RespawnPoint.uasset'
+[2015.01.22-02.43.02:009][580]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.43.03:990][712]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.43.06:715][892]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.01.22-02.43.08:571][900]Cmd: QUIT_EDITOR
+[2015.01.22-02.43.08:974][900]LogExit: Preparing to exit.
+[2015.01.22-02.43.10:151][900]LogExit: Editor shut down
+[2015.01.22-02.43.10:151][900]LogExit: Transaction tracking system shut down
+[2015.01.22-02.43.10:152][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000295F38E00
+[2015.01.22-02.43.10:152][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000028FB90680
+[2015.01.22-02.43.10:153][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000002A6F14C20
+[2015.01.22-02.43.10:153][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000029FD7EB60
+[2015.01.22-02.43.10:154][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000295B59940
+[2015.01.22-02.43.10:373][900]LogExit: Object subsystem successfully closed.
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (168)
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module CrashTracker (167)
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module SuperSearch (166)
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module SceneOutliner (165)
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module EditorWidgets (164)
+[2015.01.22-02.43.10:526][900]LogModuleManager: Shutting down and abandoning module CollectionManager (163)
+[2015.01.22-02.43.10:536][900]LogModuleManager: Shutting down and abandoning module StatsViewer (162)
+[2015.01.22-02.43.10:537][900]LogModuleManager: Shutting down and abandoning module FoliageEdit (161)
+[2015.01.22-02.43.10:537][900]LogModuleManager: Shutting down and abandoning module LandscapeEditor (160)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module MeshPaint (159)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module ActorPickerMode (158)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module GeometryMode (157)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module TextureAlignMode (156)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module BspMode (155)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module PlacementMode (154)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module AutomationWorker (153)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module CharacterAI (152)
+[2015.01.22-02.43.10:551][900]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (151)
+[2015.01.22-02.43.10:562][900]LogModuleManager: Shutting down and abandoning module IntroTutorials (150)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (149)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module HardwareTargeting (148)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (147)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (140)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (139)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2015.01.22-02.43.10:566][900]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (136)
+[2015.01.22-02.43.10:567][900]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2015.01.22-02.43.10:567][900]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2015.01.22-02.43.10:567][900]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2015.01.22-02.43.10:567][900]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2015.01.22-02.43.10:575][900]LogModuleManager: Shutting down and abandoning module ProjectLauncher (131)
+[2015.01.22-02.43.10:575][900]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2015.01.22-02.43.10:575][900]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2015.01.22-02.43.10:589][900]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2015.01.22-02.43.10:589][900]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2015.01.22-02.43.10:589][900]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2015.01.22-02.43.10:589][900]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2015.01.22-02.43.10:604][900]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2015.01.22-02.43.10:612][900]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2015.01.22-02.43.10:612][900]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2015.01.22-02.43.10:612][900]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2015.01.22-02.43.10:612][900]LogModuleManager: Shutting down and abandoning module Persona (120)
+[2015.01.22-02.43.10:613][900]LogModuleManager: Shutting down and abandoning module Kismet (119)
+[2015.01.22-02.43.10:613][900]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2015.01.22-02.43.10:613][900]LogModuleManager: Shutting down and abandoning module ClassViewer (117)
+[2015.01.22-02.43.10:613][900]LogModuleManager: Shutting down and abandoning module Toolbox (116)
+[2015.01.22-02.43.10:613][900]LogModuleManager: Shutting down and abandoning module ModuleUI (115)
+[2015.01.22-02.43.10:616][900]LogModuleManager: Shutting down and abandoning module MovieSceneTools (114)
+[2015.01.22-02.43.10:630][900]LogModuleManager: Shutting down and abandoning module OutputLog (113)
+[2015.01.22-02.43.10:630][900]LogModuleManager: Shutting down and abandoning module GammaUI (112)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module Documentation (111)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module HTTP (108)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.01.22-02.43.10:641][900]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
+[2015.01.22-02.43.10:699][900]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
+[2015.01.22-02.43.10:711][900]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
+[2015.01.22-02.43.10:711][900]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (100)
+[2015.01.22-02.43.10:711][900]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2015.01.22-02.43.10:711][900]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2015.01.22-02.43.10:711][900]LogModuleManager: Shutting down and abandoning module MessagingDebugger (97)
+[2015.01.22-02.43.10:729][900]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (96)
+[2015.01.22-02.43.10:738][900]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (95)
+[2015.01.22-02.43.10:738][900]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2015.01.22-02.43.10:817][900]LogModuleManager: Shutting down and abandoning module FMODStudio (93)
+[2015.01.22-02.43.10:885][900]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.01.22-02.43.10:885][900]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.01.22-02.43.10:885][900]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.01.22-02.43.10:885][900]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.01.22-02.43.10:899][900]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.01.22-02.43.10:899][900]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.01.22-02.43.10:899][900]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.01.22-02.43.10:899][900]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.01.22-02.43.10:899][900]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.01.22-02.43.10:915][900]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.01.22-02.43.10:916][900]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.01.22-02.43.10:920][900]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.01.22-02.43.10:922][900]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.01.22-02.43.11:024][900]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.01.22-02.43.11:024][900]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.01.22-02.43.11:055][900]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.01.22-02.43.11:055][900]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.01.22-02.43.11:056][900]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.01.22-02.43.11:056][900]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.01.22-02.43.11:056][900]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.01.22-02.43.11:061][900]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.01.22-02.43.11:061][900]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.01.22-02.43.11:061][900]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.01.22-02.43.11:082][900]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.01.22-02.43.11:093][900]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.01.22-02.43.11:107][900]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.01.22-02.43.11:107][900]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.01.22-02.43.11:107][900]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.01.22-02.43.11:110][900]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.01.22-02.43.11:110][900]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.01.22-02.43.11:111][900]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.01.22-02.43.11:133][900]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.01.22-02.43.11:205][900]LogDerivedDataCache: Shutdown
+[2015.01.22-02.43.11:205][900]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.01.22-02.43.11:227][900]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.01.22-02.43.11:227][900]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.01.22-02.43.11:232][900]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.01.22-02.43.11:232][900]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.01.22-02.43.11:232][900]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.01.22-02.43.11:232][900]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.01.22-02.43.11:232][900]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.01.22-02.43.11:244][900]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.22-02.43.11:247][900]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.22-02.43.11:248][900]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.22-02.43.11:248][900]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.22-02.43.11:275][900]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.22-02.43.11:290][900]LogExit: Exiting.
+[2015.01.22-02.43.11:299][900]Log file closed, 01/21/15 20:43:11

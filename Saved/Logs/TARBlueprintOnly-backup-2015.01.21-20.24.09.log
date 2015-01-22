@@ -1,0 +1,1410 @@
+﻿Log file open, 01/21/15 18:56:37
+LogInit:Display: Running engine for game: TARBlueprintOnly
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.22-00.56.37:128][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.22-00.56.37:157][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.22-00.56.37:177][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.22-00.56.37:186][  0]LogInit: Object subsystem initialized
+[2015.01.22-00.56.37:189][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.22-00.56.37:189][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.22-00.56.37:189][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.01.22-00.56.37:189][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.22-00.56.37:189][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.22-00.56.37:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.22-00.56.37:195][  0]LogInit: Computer: ONO-SENDAI8
+[2015.01.22-00.56.37:195][  0]LogInit: User: Dalton
+[2015.01.22-00.56.37:196][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.22-00.56.37:196][  0]LogInit: High frequency timer resolution =3.320346 MHz
+[2015.01.22-00.56.37:196][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.22-00.56.37:196][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.22-00.56.37:196][  0]LogMemory: Process Physical Memory: 67.14 MB used, 67.14 MB peak
+[2015.01.22-00.56.37:196][  0]LogMemory: Process Virtual Memory: 42.51 MB used, 42.51 MB peak
+[2015.01.22-00.56.37:196][  0]LogMemory: Physical Memory: 2490.69 MB used, 8087.00 MB total
+[2015.01.22-00.56.37:196][  0]LogMemory: Virtual Memory: 286.06 MB used, 134217728.00 MB total
+[2015.01.22-00.56.37:229][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.01.22-00.56.37:229][  0]LogD3D11RHI: Adapter has 3906MB of dedicated video memory, 0MB of dedicated system memory, and 4043MB of shared system memory, 2 output[s]
+[2015.01.22-00.56.37:233][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.22-00.56.37:233][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.01.22-00.56.37:234][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.22-00.56.37:234][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.22-00.56.37:234][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.22-00.56.37:237][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.22-00.56.37:248][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.22-00.56.37:332][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.22-00.56.37:453][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.22-00.56.42:598][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-00.56.43:090][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-00.56.43:135][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.22-00.56.43:425][  0]LogDerivedDataCache: Loaded boot cache 0.29s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.22-00.56.43:425][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.01.22-00.56.43:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.22-00.56.43:425][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.22-00.56.43:561][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.22-00.56.43:592][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dalton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.22-00.56.44:996][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.22-00.56.44:996][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.22-00.56.46:261][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.22-00.56.46:317][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.22-00.56.47:734][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.22-00.56.54:544][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.22-00.56.55:279][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Binaries/Win64. Error: 0
+[2015.01.22-00.56.56:466][  0]SourceControl: Info Source control is disabled
+[2015.01.22-00.56.56:466][  0]SourceControl: Info Source control is disabled
+[2015.01.22-00.56.56:475][  0]SourceControl: Info Source control is disabled
+[2015.01.22-00.56.56:782][  0]LogFMOD:Warning: FFMODStudioModule startup
+[2015.01.22-00.56.56:782][  0]LogFMOD:Warning: FFMODStudioModule::LoadDll
+[2015.01.22-00.56.56:782][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodL64.dll
+[2015.01.22-00.56.56:840][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodstudioL64.dll
+[2015.01.22-00.56.56:933][  0]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.strings.bank' returned archive 0000006094FF3900
+[2015.01.22-00.56.56:933][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2015.01.22-00.56.56:971][  0]LogAssetRegistry: FAssetRegistry took 0.0129 seconds to start up
+[2015.01.22-00.56.56:971][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.22-00.56.56:972][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience
+[2015.01.22-00.56.56:972][  0]LogFMOD: Skippping asset: bus:/
+[2015.01.22-00.56.56:972][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2015.01.22-00.56.56:972][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jumpswoosh
+[2015.01.22-00.56.56:972][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jump
+[2015.01.22-00.56.56:972][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Steps
+[2015.01.22-00.56.57:604][  0]LogObj: 23051 objects as part of root set at end of initial load.
+[2015.01.22-00.56.57:604][  0]LogUObjectAllocator: 4828848 out of 0 bytes used by permanent object pool.
+[2015.01.22-00.56.58:260][  0]LogEngine: Initializing Engine...
+[2015.01.22-00.56.59:144][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar Essence STX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.22-00.56.59:164][  0]LogInit: FAudioDevice initialized.
+[2015.01.22-00.56.59:454][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.22-00.56.59:605][  0]LogDerivedDataCache: Saved boot cache 0.10s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.22-00.56.59:608][  0]LogInit: Texture streaming: Enabled
+[2015.01.22-00.56.59:835][  0]LogInit: Transaction tracking system initialized
+[2015.01.22-00.57.00:225][  0]BlueprintLog: New page: Editor Load
+[2015.01.22-00.57.01:791][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-00.57.02:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.22-00.57.03:659][  0]LogConsoleResponse:Display: 
+[2015.01.22-00.57.05:291][  0]SourceControl: Info Source control is disabled
+[2015.01.22-00.57.05:347][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/Test_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.22-00.57.05:355][  0]LightingResults: New page: Lighting Build
+[2015.01.22-00.57.05:431][  0]MapCheck: New page: Map Check
+[2015.01.22-00.57.05:431][  0]LightingResults: New page: Lighting Build
+[2015.01.22-00.57.05:444][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000609B15AA20
+[2015.01.22-00.57.11:751][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.22-00.57.11:751][  0]LogAIModule: Creating AISystem for world Test_Map
+[2015.01.22-00.57.11:776][  0]Cmd: MAP CHECKDEP
+[2015.01.22-00.57.11:777][  0]MapCheck: New page: Test_Map - Jan 21, 2015, 12:57:11 PM
+[2015.01.22-00.57.11:930][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 152.906ms to complete.
+[2015.01.22-00.57.11:930][  0]LogFileHelpers: Loading map 'Test_Map' took 6.597
+[2015.01.22-00.57.12:859][  0]LogCollectionManager: Loaded 0 collections in 0.002340 seconds
+[2015.01.22-00.57.13:803][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.22-00.57.14:026][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.22-00.57.14:080][  0]LogLoad: Full Startup: 39.58 seconds (BP compile: 0.61 seconds)
+[2015.01.22-00.57.14:430][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-00.57.14:936][  0]LogRenderer:Warning: Reallocating scene render targets to support 1128x904.
+[2015.01.22-00.57.16:714][  5]LogAssetRegistry: Asset discovery search completed in 19.7544 seconds
+[2015.01.22-00.57.35:249][319]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.22-00.57.35:249][319]LightingResults: New page: Lighting Build
+[2015.01.22-00.57.35:282][319]LoadErrors: New page: Loading map: EnemyTest.umap
+[2015.01.22-00.57.35:283][319]MapCheck: New page: Map Check
+[2015.01.22-00.57.35:283][319]LightingResults: New page: Lighting Build
+[2015.01.22-00.57.35:304][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000609D400AE0
+[2015.01.22-00.57.35:671][319]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:UserConstructionScript; removing parent information, but keeping function
+[2015.01.22-00.57.35:672][319]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_25_ComponentEndOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.22-00.57.35:672][319]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_11_ComponentBeginOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.22-00.57.35:858][319]LogMaterial: Missing cached shader map for material Tar, compiling.
+[2015.01.22-00.57.37:156][319]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.22-00.57.37:157][319]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-00.57.37:322][319]Cmd: MAP CHECKDEP
+[2015.01.22-00.57.37:322][319]MapCheck: New page: EnemyTest - Jan 21, 2015, 12:57:37 PM
+[2015.01.22-00.57.37:452][319]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.736ms to complete.
+[2015.01.22-00.57.37:452][319]LogFileHelpers: Loading map 'EnemyTest' took 2.206
+[2015.01.22-00.58.00:152][398]LogFMOD:Warning: Enabling live update
+[2015.01.22-00.58.00:159][398]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-00.58.00:159][398]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-00.58.00:233][398]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000608FF8F900
+[2015.01.22-00.58.00:233][398]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-00.58.00:233][398]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.22-00.58.00:290][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.22-00.58.00:324][398]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.01.22-00.58.00:324][398]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 12:58:00 PM)
+[2015.01.22-00.58.00:333][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009249s)
+[2015.01.22-00.58.00:334][398]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2015.01.22-00.58.00:334][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009964s)
+[2015.01.22-00.58.00:398][398]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-00.58.00:412][398]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-00.58.00:414][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-18.58.00
+[2015.01.22-00.58.00:415][398]LogWorld: Bringing up level for play took: 0.002898
+[2015.01.22-00.58.00:430][398]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.853
+[2015.01.22-00.58.00:560][400]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.58.00:580][401]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.58.00:580][401]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.58.00:580][401]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.58.00:580][401]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.58.44:613][944]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.22-00.58.46:877][126]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Rot'
+[2015.01.22-00.58.48:086][225]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.22-00.58.48:537][270]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-00.58.55:849][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.22-00.58.55:872][685]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_1.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-00.58.55:872][685]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_0.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-00.58.55:898][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000608EABEDE0
+[2015.01.22-00.58.59:777][977]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:789][978]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:803][979]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:803][979]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:815][980]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:827][981]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:828][981]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:841][982]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:842][982]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:865][984]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:877][985]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:877][985]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:890][986]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:902][987]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:914][988]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:926][989]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:927][989]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.58.59:940][990]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.00:033][995]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.00:474][ 31]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.00:513][ 34]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.00:514][ 34]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.04:719][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.22-00.59.06:236][442]LogFMOD:Warning: Enabling live update
+[2015.01.22-00.59.06:242][442]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-00.59.06:242][442]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-00.59.06:317][442]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609CE9F900
+[2015.01.22-00.59.06:317][442]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-00.59.06:380][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.22-00.59.06:380][442]LogPlayLevel: [PIE] Compiling TestMob before PIE...
+[2015.01.22-00.59.06:587][442]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.22-00.59.06:689][442]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.22-00.59.06:770][442]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.22-00.59.06:851][442]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-00.59.06:969][442]LogPlayLevel: PIE:  Blueprint regeneration took 651 ms (5 blueprints)
+[2015.01.22-00.59.06:969][442]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 12:59:06 PM)
+[2015.01.22-00.59.06:978][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009140s)
+[2015.01.22-00.59.06:979][442]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2015.01.22-00.59.06:979][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009775s)
+[2015.01.22-00.59.07:009][442]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-00.59.07:013][442]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-00.59.07:015][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-18.59.07
+[2015.01.22-00.59.07:015][442]LogWorld: Bringing up level for play took: 0.002563
+[2015.01.22-00.59.07:017][442]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.44
+[2015.01.22-00.59.07:056][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:057][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:059][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:059][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:060][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:061][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:061][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:062][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:062][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:063][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:063][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:064][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:064][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:065][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:066][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:066][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:067][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:067][442]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.07:105][444]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.59.07:105][444]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.59.07:113][444]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.59.07:113][444]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.59.07:113][444]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-00.59.32:229][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.01.22-00.59.35:420][328]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.01.22-00.59.35:442][328]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_3.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-00.59.35:442][328]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_2.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-00.59.35:463][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000608EABE700
+[2015.01.22-00.59.35:463][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:464][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:466][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:467][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:467][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:468][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:468][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:469][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:469][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:470][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:470][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:471][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:472][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:472][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:473][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:473][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:474][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.35:474][328]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-00.59.47:224][209]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.22-00.59.52:783][603]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-01.03.24:637][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:637][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:703][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.24:704][628]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.03.50:452][458]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.03.50:551][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.01.22-01.03.50:592][458]BlueprintEditorCompileResults: Info [0435.98] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.03.51:779][529]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.03.51:785][529]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.03.51:785][529]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.03.51:870][529]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060992AB900
+[2015.01.22-01.03.51:870][529]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-01.03.51:874][529]LogPlayLevel: [PIE] Compiling BTD_mobUpdateRoute before PIE...
+[2015.01.22-01.03.52:060][529]LogPlayLevel: [PIE] Compiling TestMob before PIE...
+[2015.01.22-01.03.52:265][529]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.22-01.03.52:363][529]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.22-01.03.52:455][529]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.22-01.03.52:553][529]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-01.03.52:653][529]LogPlayLevel: PIE:  Blueprint regeneration took 783 ms (6 blueprints)
+[2015.01.22-01.03.52:653][529]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:03:52 PM)
+[2015.01.22-01.03.52:662][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009067s)
+[2015.01.22-01.03.52:663][529]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2015.01.22-01.03.52:663][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009786s)
+[2015.01.22-01.03.52:694][529]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.03.52:698][529]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.03.52:700][529]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.03.52
+[2015.01.22-01.03.52:701][529]LogWorld: Bringing up level for play took: 0.002845
+[2015.01.22-01.03.52:703][529]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.126
+[2015.01.22-01.03.52:809][531]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.03.52:809][531]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.03.52:809][531]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.03.52:809][531]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.03.52:810][531]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.07:718][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.01.22-01.04.07:742][493]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_5.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.04.07:742][493]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_4.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.04.07:775][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060958456C0
+[2015.01.22-01.04.13:919][924]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.04.14:060][924]BlueprintEditorCompileResults: Info [0459.46] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.04.15:461][ 20]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.04.15:557][ 20]BlueprintEditorCompileResults: Info [0460.97] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.04.17:127][128]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.04.17:230][128]BlueprintEditorCompileResults: Info [0462.64] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.04.19:962][308]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.04.19:968][308]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.04.19:968][308]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.04.20:043][308]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060AF5A7900
+[2015.01.22-01.04.20:043][308]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.04.20:043][308]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:04:20 PM)
+[2015.01.22-01.04.20:053][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009771s)
+[2015.01.22-01.04.20:054][308]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2015.01.22-01.04.20:054][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010805s)
+[2015.01.22-01.04.20:086][308]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.04.20:089][308]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.04.20:091][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.04.20
+[2015.01.22-01.04.20:092][308]LogWorld: Bringing up level for play took: 0.002710
+[2015.01.22-01.04.20:094][308]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.518
+[2015.01.22-01.04.20:156][310]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.20:187][311]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.20:187][311]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.20:187][311]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.20:187][311]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.04.39:167][497]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_7.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.04.39:167][497]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_6.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.04.39:190][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000609580A5C0
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.00:490][392]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.08.22:043][950]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.08.22:145][950]BlueprintEditorCompileResults: Info [0707.55] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.08.25:812][205]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.08.25:819][205]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.08.25:819][205]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.08.25:893][205]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060B0BB3900
+[2015.01.22-01.08.25:893][205]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.08.25:893][205]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:08:25 PM)
+[2015.01.22-01.08.25:902][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008934s)
+[2015.01.22-01.08.25:903][205]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.01.22-01.08.25:903][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009636s)
+[2015.01.22-01.08.25:936][205]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.08.25:940][205]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.08.25:942][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.08.25
+[2015.01.22-01.08.25:943][205]LogWorld: Bringing up level for play took: 0.003103
+[2015.01.22-01.08.25:945][205]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.369
+[2015.01.22-01.08.26:004][207]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.08.26:034][208]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.08.26:034][208]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.08.26:034][208]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.08.26:034][208]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.08.56:902][193]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_9.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.08.56:902][193]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_8.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.08.56:928][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060958471A0
+[2015.01.22-01.09.00:513][447]BlueprintLog: New page: Compile BTT_mobWalkSpeed
+[2015.01.22-01.09.00:631][447]BlueprintEditorCompileResults: Info [0746.04] Compile of BTT_mobWalkSpeed successful! [in 1 ms]
+[2015.01.22-01.09.01:949][527]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.09.01:955][527]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.09.01:956][527]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.09.02:030][527]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060AF47F900
+[2015.01.22-01.09.02:030][527]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.09.02:030][527]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:09:02 PM)
+[2015.01.22-01.09.02:039][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009268s)
+[2015.01.22-01.09.02:040][527]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2015.01.22-01.09.02:040][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009887s)
+[2015.01.22-01.09.02:071][527]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.09.02:075][527]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.09.02:077][527]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.09.02
+[2015.01.22-01.09.02:077][527]LogWorld: Bringing up level for play took: 0.002742
+[2015.01.22-01.09.02:080][527]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.503
+[2015.01.22-01.09.02:110][528]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.09.02:144][529]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.09.02:144][529]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.09.02:145][529]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.09.02:145][529]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.09.24:486][937]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_11.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.09.24:486][937]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_10.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.09.24:511][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060AEDBC540
+[2015.01.22-01.10.29:311][792]LogSavePackage: Save=55.189129ms
+[2015.01.22-01.10.29:311][792]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest_Auto18589F18E4EA2A9A5B83B44A4CD09815F.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Maps/EnemyTest_Auto1.umap'
+[2015.01.22-01.10.29:318][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.234
+[2015.01.22-01.10.29:318][792]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.234
+[2015.01.22-01.10.29:330][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestEnemy/TestMob] ([1] browsable assets)...
+[2015.01.22-01.10.29:369][792]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TestEnemy/TestMob.TestMob]
+[2015.01.22-01.10.29:369][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/TestMob]
+[2015.01.22-01.10.29:678][792]LogSavePackage: Save=212.336304ms
+[2015.01.22-01.10.29:678][792]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMob_Auto154E00D26411C8AAA9D71929295AA55C2.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/TestMob_Auto1.uasset'
+[2015.01.22-01.10.29:695][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy/BTD_mobUpdateRoute] ([1] browsable assets)...
+[2015.01.22-01.10.29:703][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/BTD_mobUpdateRoute]
+[2015.01.22-01.10.29:813][792]LogSavePackage: Save=14.177739ms
+[2015.01.22-01.10.29:813][792]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTD_mobUpdateRoute_Auto154DE62CD4EDE6E5BB698DE8D5D290FDD.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/BTD_mobUpdateRoute_Auto1.uasset'
+[2015.01.22-01.10.29:830][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy/BTT_mobWalkSpeed] ([1] browsable assets)...
+[2015.01.22-01.10.29:836][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/BTT_mobWalkSpeed]
+[2015.01.22-01.10.29:946][792]LogSavePackage: Save=13.628098ms
+[2015.01.22-01.10.29:946][792]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTT_mobWalkSpeed_Auto17CC26833491512EAE14DC5AF7CCC5632.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/BTT_mobWalkSpeed_Auto1.uasset'
+[2015.01.22-01.10.29:952][792]LogFileHelpers: Auto-saving content packages took 0.633
+[2015.01.22-01.10.55:228][194]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.10.55:234][194]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.10.55:234][194]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.10.55:309][194]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060A24F3900
+[2015.01.22-01.10.55:309][194]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.10.55:309][194]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:10:55 PM)
+[2015.01.22-01.10.55:318][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009145s)
+[2015.01.22-01.10.55:319][194]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2015.01.22-01.10.55:319][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009973s)
+[2015.01.22-01.10.55:349][194]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.10.55:352][194]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.10.55:354][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.10.55
+[2015.01.22-01.10.55:355][194]LogWorld: Bringing up level for play took: 0.002980
+[2015.01.22-01.10.55:357][194]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.219
+[2015.01.22-01.10.55:426][196]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.10.55:432][196]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.10.55:451][197]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.10.55:451][197]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.10.55:451][197]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.11.31:976][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.01.22-01.11.32:000][151]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_13.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.11.32:000][151]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_12.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.11.32:001][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060AD4E65C0
+[2015.01.22-01.11.41:092][763]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Objects'
+[2015.01.22-01.11.41:820][825]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.22-01.11.42:947][914]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.22-01.12.29:721][157]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Rot'
+[2015.01.22-01.12.39:042][671]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.01.22-01.12.48:807][265]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.01.22-01.13.09:706][538]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.13.09:713][538]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.13.09:713][538]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.13.09:787][538]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060B5B27900
+[2015.01.22-01.13.09:787][538]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.13.09:787][538]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:13:09 PM)
+[2015.01.22-01.13.09:796][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009199s)
+[2015.01.22-01.13.09:797][538]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2015.01.22-01.13.09:797][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009874s)
+[2015.01.22-01.13.09:827][538]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.13.09:830][538]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.13.09:832][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.13.09
+[2015.01.22-01.13.09:833][538]LogWorld: Bringing up level for play took: 0.002955
+[2015.01.22-01.13.09:835][538]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.258
+[2015.01.22-01.13.09:906][540]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.13.09:908][540]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.13.09:917][540]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.13.09:917][540]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.13.09:917][540]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.13.23:605][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.01.22-01.13.23:630][124]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_15.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.13.23:630][124]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_14.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.13.23:633][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B549B7E0
+[2015.01.22-01.13.23:633][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B256A8E0
+[2015.01.22-01.14.34:926][565]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.14.34:926][565]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.14.34:926][565]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.14.34:926][565]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.14.37:953][753]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.20.15:150][ 64]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.01.22-01.20.19:174][291]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.01.22-01.20.26:324][702]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2015.01.22-01.20.26:605][702]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.01.22-01.21.12:094][403]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.21.12:101][403]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.21.12:101][403]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.21.12:176][403]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060B7F53900
+[2015.01.22-01.21.12:176][403]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.21.12:176][403]PIE: New page: SIE session: EnemyTest (Jan 21, 2015, 1:21:12 PM)
+[2015.01.22-01.21.12:185][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008931s)
+[2015.01.22-01.21.12:185][403]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2015.01.22-01.21.12:186][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009560s)
+[2015.01.22-01.21.12:217][403]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.21.12:220][403]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.21.12:222][403]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.21.12
+[2015.01.22-01.21.12:223][403]LogWorld: Bringing up level for play took: 0.003198
+[2015.01.22-01.21.12:226][403]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.649
+[2015.01.22-01.21.12:260][404]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.21.12:269][404]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.21.12:279][404]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.21.12:279][404]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.21.12:281][404]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.21.15:207][525]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_17.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.21.15:207][525]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_16.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060A26C0CC0
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B3F239C0
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000609BE2BCE0
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B0F05B20
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B3003C40
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B7DC51C0
+[2015.01.22-01.21.15:211][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060A5B56480
+[2015.01.22-01.21.15:212][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B2F6B9C0
+[2015.01.22-01.21.15:212][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060B5F2D580
+[2015.01.22-01.21.25:217][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.032
+[2015.01.22-01.21.25:236][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-01.21.25:269][138]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-01.21.25:269][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-01.21.25:552][138]LogSavePackage: Save=179.362625ms
+[2015.01.22-01.21.25:552][138]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto2B7C7D00444447B23EFEE108DA5E8E841.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto2.uasset'
+[2015.01.22-01.21.25:556][138]LogFileHelpers: Auto-saving content packages took 0.339
+[2015.01.22-01.21.54:240][ 16]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.22-01.22.42:009][370]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Rot'
+[2015.01.22-01.31.29:874][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.047
+[2015.01.22-01.31.29:887][452]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-01.31.29:918][452]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-01.31.29:918][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-01.31.30:203][452]LogSavePackage: Save=181.804855ms
+[2015.01.22-01.31.30:203][452]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto30E9EA2064CA09AEA972835ADE1A528FC.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto3.uasset'
+[2015.01.22-01.31.30:211][452]LogFileHelpers: Auto-saving content packages took 0.336
+[2015.01.22-01.33.11:263][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.33.11:263][ 22]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.34.01:454][465]BlueprintLog: New page: Compile TestMob
+[2015.01.22-01.34.01:772][465]BlueprintEditorCompileResults: Info [2247.06] Compile of TestMob successful! [in 78 ms]
+[2015.01.22-01.34.48:941][290]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.34.48:941][290]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-01.41.30:665][514]LogSavePackage: Save=51.708164ms
+[2015.01.22-01.41.30:665][514]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest_Auto40351E72142D8749194B7D78B8CDE02B2.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Maps/EnemyTest_Auto4.umap'
+[2015.01.22-01.41.30:674][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.221
+[2015.01.22-01.41.30:674][514]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.221
+[2015.01.22-01.41.30:685][514]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-01.41.30:705][514]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-01.41.30:705][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-01.41.30:981][514]LogSavePackage: Save=176.507507ms
+[2015.01.22-01.41.30:981][514]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto458E06F1549F1EB8CDEF5CEB5DF1AEA9A.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto4.uasset'
+[2015.01.22-01.41.30:999][514]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestEnemy/TestMob] ([1] browsable assets)...
+[2015.01.22-01.41.31:021][514]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TestEnemy/TestMob.TestMob]
+[2015.01.22-01.41.31:021][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/TestMob]
+[2015.01.22-01.41.31:334][514]LogSavePackage: Save=211.653244ms
+[2015.01.22-01.41.31:334][514]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMob_Auto451B90B5C4B002FD5208B309D23D04E69.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/TestMob_Auto4.uasset'
+[2015.01.22-01.41.31:353][514]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy/BTT_mobWalkSpeed] ([1] browsable assets)...
+[2015.01.22-01.41.31:361][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/BTT_mobWalkSpeed]
+[2015.01.22-01.41.31:473][514]LogSavePackage: Save=12.152950ms
+[2015.01.22-01.41.31:473][514]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTT_mobWalkSpeed_Auto4390502DD4676ED41B38C61A8C84B6574.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/BTT_mobWalkSpeed_Auto4.uasset'
+[2015.01.22-01.41.31:480][514]LogFileHelpers: Auto-saving content packages took 0.806
+[2015.01.22-01.42.47:529][587]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.22-01.42.48:116][616]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2015.01.22-01.42.49:930][730]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.01.22-01.42.52:719][889]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character/Terva'
+[2015.01.22-01.42.56:313][ 88]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.22-01.43.29:699][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.01.22-01.43.29:699][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.01.22-01.43.29:699][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.01.22-01.45.33:046][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.01.22-01.45.56:507][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.01.22-01.46.02:031][908]BlueprintLog: New page: Compile TervaChar
+[2015.01.22-01.46.02:264][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.01.22-01.46.02:415][908]BlueprintEditorCompileResults: Info [2967.68] Compile of TervaChar successful! [in 81 ms]
+[2015.01.22-01.46.13:369][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.01.22-01.46.28:630][839]BlueprintLog: New page: Compile TervaChar
+[2015.01.22-01.46.28:839][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.01.22-01.46.28:968][839]BlueprintEditorCompileResults: Info [2994.27] Compile of TervaChar successful! [in 68 ms]
+[2015.01.22-01.47.37:815][511]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-01.47.37:863][511]LogBlueprint:Warning: [compiler] Warning  IdleWalkRun to Take Damage  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.37:863][511]LogBlueprint:Warning: [compiler] Warning  IdleWalkRun to Attack  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.37:863][511]LogBlueprint:Warning: [compiler] Warning  Take Damage to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.37:864][511]LogBlueprint:Warning: [compiler] Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.37:866][511]LogBlueprint:Warning: [compiler] Warning [3063.36] Compile of RotAnimBP successful, but with 4 Warning(s) [in 8 ms]
+[2015.01.22-01.47.38:016][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.01.22-01.47.38:068][511]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults:Warning: Warning  IdleWalkRun to Take Damage  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults:Warning: Warning  IdleWalkRun to Attack  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults:Warning: Warning  Take Damage to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults:Warning: Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.47.38:069][511]BlueprintEditorCompileResults:Warning: Warning [3063.36] Compile of RotAnimBP successful, but with 4 Warning(s) [in 8 ms]
+[2015.01.22-01.48.54:902][219]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.01.22-01.51.08:427][154]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-01.51.08:447][154]LogBlueprint:Warning: [compiler] Warning  IdleWalkRun to Attack  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.51.08:447][154]LogBlueprint:Warning: [compiler] Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.51.08:452][154]LogBlueprint:Warning: [compiler] Warning [3273.95] Compile of RotAnimBP successful, but with 2 Warning(s) [in 8 ms]
+[2015.01.22-01.51.08:725][154]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-01.51.08:725][154]BlueprintEditorCompileResults:Warning: Warning  IdleWalkRun to Attack  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.51.08:726][154]BlueprintEditorCompileResults:Warning: Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-01.51.08:726][154]BlueprintEditorCompileResults:Warning: Warning [3273.95] Compile of RotAnimBP successful, but with 2 Warning(s) [in 8 ms]
+[2015.01.22-01.51.19:163][819]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-01.51.19:410][819]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-01.51.19:410][819]BlueprintEditorCompileResults: Info [3284.71] Compile of RotAnimBP successful! [in 6 ms]
+[2015.01.22-01.51.33:012][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.040
+[2015.01.22-01.51.33:026][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-01.51.33:047][648]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-01.51.33:047][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-01.51.33:332][648]LogSavePackage: Save=185.636978ms
+[2015.01.22-01.51.33:332][648]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto50014E5704E766B989C6CAD9F56421803.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto5.uasset'
+[2015.01.22-01.51.33:352][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/TervaChar] ([1] browsable assets)...
+[2015.01.22-01.51.33:377][648]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/TervaChar.TervaChar]
+[2015.01.22-01.51.33:377][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TervaChar]
+[2015.01.22-01.51.33:730][648]LogSavePackage: Save=251.268097ms
+[2015.01.22-01.51.33:730][648]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TervaChar_Auto5377F3BA644F000D37D3F8EA7BAEC8BF5.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Blueprints/TervaChar_Auto5.uasset'
+[2015.01.22-01.51.33:737][648]LogFileHelpers: Auto-saving content packages took 0.726
+[2015.01.22-01.51.49:139][521]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-01.51.49:331][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.01.22-01.51.49:407][521]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-01.51.49:407][521]BlueprintEditorCompileResults: Info [3314.67] Compile of RotAnimBP successful! [in 6 ms]
+[2015.01.22-01.51.55:957][825]LogSavePackage: Save=51.429882ms
+[2015.01.22-01.51.55:957][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest4E3AF40A4970B130379990B90567E1D4.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap'
+[2015.01.22-01.51.56:117][825]LogFileHelpers: Saving map 'EnemyTest' took 0.485
+[2015.01.22-01.51.56:131][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Rot/RotAnimBP" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Character/Rot/RotAnimBP.uasset" SILENT=true
+[2015.01.22-01.51.56:390][825]LogSavePackage: Save=176.667130ms
+[2015.01.22-01.51.56:390][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBPF725630646F2B35119AB65A2AF98F895.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Character/Rot/RotAnimBP.uasset'
+[2015.01.22-01.51.56:397][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/TestMob" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset" SILENT=true
+[2015.01.22-01.51.56:506][825]LogSavePackage: Save=24.249580ms
+[2015.01.22-01.51.56:506][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMob559D53F5409C0AAF71031A8E2B3BA392.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset'
+[2015.01.22-01.51.56:513][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/BTD_mobUpdateRoute" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/BTD_mobUpdateRoute.uasset" SILENT=true
+[2015.01.22-01.51.56:608][825]LogSavePackage: Save=10.056784ms
+[2015.01.22-01.51.56:608][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTD_mobUpdateRoute4F297BEB47CCF100B10506AAABE58008.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/BTD_mobUpdateRoute.uasset'
+[2015.01.22-01.51.56:615][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/BTT_mobWalkSpeed" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/BTT_mobWalkSpeed.uasset" SILENT=true
+[2015.01.22-01.51.56:709][825]LogSavePackage: Save=9.906498ms
+[2015.01.22-01.51.56:709][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTT_mobWalkSpeed4CF2DE1C4271BE0B33E98AB5BAB84314.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/BTT_mobWalkSpeed.uasset'
+[2015.01.22-01.51.56:716][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TervaChar" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/TervaChar.uasset" SILENT=true
+[2015.01.22-01.51.56:897][825]LogSavePackage: Save=95.172615ms
+[2015.01.22-01.51.56:897][825]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TervaChar6A8A16544731B050C03B4886402EFB76.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/TervaChar.uasset'
+[2015.01.22-01.51.58:525][896]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.51.58:532][896]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.51.58:532][896]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.51.58:607][896]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060DB2DF900
+[2015.01.22-01.51.58:607][896]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-01.51.58:675][896]LogPlayLevel: [PIE] Compiling TestMob before PIE...
+[2015.01.22-01.51.58:943][896]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.22-01.51.59:074][896]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.22-01.51.59:165][896]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.22-01.51.59:297][896]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-01.51.59:455][896]LogPlayLevel: PIE:  Blueprint regeneration took 848 ms (5 blueprints)
+[2015.01.22-01.51.59:456][896]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:51:59 PM)
+[2015.01.22-01.51.59:464][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008632s)
+[2015.01.22-01.51.59:465][896]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2015.01.22-01.51.59:465][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009296s)
+[2015.01.22-01.51.59:500][896]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.51.59:503][896]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.51.59:505][896]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.51.59
+[2015.01.22-01.51.59:506][896]LogWorld: Bringing up level for play took: 0.002800
+[2015.01.22-01.51.59:509][896]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.932
+[2015.01.22-01.51.59:567][897]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.51.59:593][898]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.51.59:593][898]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.51.59:593][898]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.51.59:593][898]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.52.16:983][651]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_19.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.52.16:983][651]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_18.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.52.17:022][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C8D50FE0
+[2015.01.22-01.52.35:746][393]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.01.22-01.52.57:273][212]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.52.57:279][212]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.52.57:279][212]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.52.57:353][212]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060D56E3900
+[2015.01.22-01.52.57:353][212]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.52.57:353][212]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:52:57 PM)
+[2015.01.22-01.52.57:362][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008951s)
+[2015.01.22-01.52.57:363][212]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.01.22-01.52.57:363][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009720s)
+[2015.01.22-01.52.57:392][212]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.52.57:395][212]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.52.57:397][212]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.52.57
+[2015.01.22-01.52.57:398][212]LogWorld: Bringing up level for play took: 0.002964
+[2015.01.22-01.52.57:401][212]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.176
+[2015.01.22-01.52.57:488][214]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.52.57:488][214]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.52.57:488][214]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.52.57:488][214]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.52.57:488][214]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.02:197][370]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_21.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.53.02:197][370]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_20.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.53.02:199][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060BC3711C0
+[2015.01.22-01.53.05:038][471]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.53.05:044][471]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.53.05:044][471]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.53.05:118][471]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060D5C3F900
+[2015.01.22-01.53.05:118][471]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.53.05:118][471]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:53:05 PM)
+[2015.01.22-01.53.05:127][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008860s)
+[2015.01.22-01.53.05:127][471]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2015.01.22-01.53.05:128][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009607s)
+[2015.01.22-01.53.05:159][471]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.53.05:163][471]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.53.05:165][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.53.05
+[2015.01.22-01.53.05:165][471]LogWorld: Bringing up level for play took: 0.002642
+[2015.01.22-01.53.05:168][471]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.409
+[2015.01.22-01.53.05:255][473]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.05:255][473]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.05:262][473]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.05:262][473]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.05:262][473]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.53.29:211][286]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_23.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.53.29:211][286]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_22.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.53.29:248][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060D240B100
+[2015.01.22-01.53.36:500][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.01.22-01.55.27:914][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.01.22-01.55.27:914][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.01.22-01.55.27:948][641]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060DEDD8680
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:UserConstructionScript.K2Node_FunctionEntry_195' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar_C' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Get player health.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Get player health.K2Node_FunctionEntry_275' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Get Camera State.K2Node_FunctionResult_2' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Get Camera State.K2Node_FunctionEntry_267' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Camera Zoom Level.K2Node_FunctionResult_1' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.OLDTervaChar:Camera Zoom Level.K2Node_FunctionEntry_266' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:043][641]LogMetaData: Removing '/Game/Blueprints/OLDTervaChar.SKEL_OLDTervaChar_C' ref from Metadata '/Game/Blueprints/TervaChar.PackageMetaData'
+[2015.01.22-01.55.28:093][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OLDTervaChar" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/OLDTervaChar.uasset" SILENT=true
+[2015.01.22-01.55.28:334][641]LogSavePackage: Save=238.742294ms
+[2015.01.22-01.55.28:334][641]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/OLDTervaCharBAF154D84571226C4728E48092CD0B20.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/OLDTervaChar.uasset'
+[2015.01.22-01.55.28:372][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.01.22-01.55.28:863][642]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/OLDTervaChar
+[2015.01.22-01.55.51:157][548]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.22-01.55.51:172][548]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.22-01.55.51:172][548]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.22-01.55.51:172][548]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.01.22-01.55.51:172][548]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55770.EdGraphPin_19575"''
+[2015.01.22-01.55.51:173][548]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_568.EdGraphPin_19583"''
+[2015.01.22-01.55.51:173][548]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_568.EdGraphPin_19584"''
+[2015.01.22-01.55.51:174][548]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55770.EdGraphPin_19576"''
+[2015.01.22-01.55.51:175][548]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_55770.EdGraphPin_19580"''
+[2015.01.22-01.55.51:285][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.01.22-01.55.51:285][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.01.22-01.55.51:285][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.01.22-01.55.56:754][749]BlueprintLog: New page: Compile TervaCharacter
+[2015.01.22-01.55.56:979][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.01.22-01.55.57:104][749]BlueprintEditorCompileResults: Info [3562.41] Compile of TervaCharacter successful! [in 77 ms]
+[2015.01.22-01.55.58:296][784]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.55.58:303][784]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.55.58:303][784]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.55.58:378][784]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E8017900
+[2015.01.22-01.55.58:378][784]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-01.55.58:378][784]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-01.55.58:590][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.01.22-01.55.58:635][784]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-01.55.58:793][784]LogPlayLevel: PIE:  Blueprint regeneration took 415 ms (2 blueprints)
+[2015.01.22-01.55.58:793][784]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:55:58 PM)
+[2015.01.22-01.55.58:802][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009131s)
+[2015.01.22-01.55.58:803][784]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2015.01.22-01.55.58:803][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009871s)
+[2015.01.22-01.55.58:835][784]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.55.58:838][784]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.55.58:840][784]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.55.58
+[2015.01.22-01.55.58:841][784]LogWorld: Bringing up level for play took: 0.002880
+[2015.01.22-01.55.58:844][784]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.268
+[2015.01.22-01.55.58:893][785]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.55.58:907][785]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.55.58:934][786]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.55.58:934][786]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.55.58:934][786]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.05:290][  0]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_25.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.56.05:290][  0]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_24.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.56.05:339][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060E74353A0
+[2015.01.22-01.56.08:477][114]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.56.08:484][114]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.56.08:484][114]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.56.08:559][114]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E83F7900
+[2015.01.22-01.56.08:559][114]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-01.56.08:559][114]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:56:08 PM)
+[2015.01.22-01.56.08:568][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009344s)
+[2015.01.22-01.56.08:569][114]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2015.01.22-01.56.08:569][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010257s)
+[2015.01.22-01.56.08:598][114]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.56.08:601][114]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.56.08:603][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.56.08
+[2015.01.22-01.56.08:604][114]LogWorld: Bringing up level for play took: 0.002813
+[2015.01.22-01.56.08:607][114]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.031
+[2015.01.22-01.56.08:693][116]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.08:693][116]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.08:693][116]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.08:693][116]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.08:693][116]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.56.19:314][478]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.56.22:320][581]LogBlueprintUserMessages: Attack!
+[2015.01.22-01.56.22:396][583]LogBlueprintUserMessages: Get back here!
+[2015.01.22-01.56.24:062][641]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.56.26:240][716]LogBlueprintUserMessages: Attack!
+[2015.01.22-01.56.26:839][737]LogBlueprintUserMessages: Get back here!
+[2015.01.22-01.56.29:720][838]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.56.31:080][885]LogBlueprintUserMessages: Attack!
+[2015.01.22-01.56.32:647][940]LogBlueprintUserMessages: Get back here!
+[2015.01.22-01.56.34:144][993]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.56.36:751][ 83]LogBlueprintUserMessages: Attack!
+[2015.01.22-01.56.38:991][160]LogBlueprintUserMessages: Get back here!
+[2015.01.22-01.56.40:381][207]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.56.41:089][222]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_27.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.56.41:089][222]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_26.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.56.41:150][222]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000608ED66840
+[2015.01.22-01.57.26:299][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:300][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:302][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:302][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:303][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:304][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:304][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:305][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:305][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:306][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:306][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:307][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:308][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:308][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:309][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:310][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:310][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.26:311][348]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.27:912][441]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.57.27:913][441]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.01.22-01.58.32:659][322]BlueprintLog: New page: Compile TestMob
+[2015.01.22-01.58.32:821][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.01.22-01.58.32:821][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.01.22-01.58.32:859][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C5404360
+[2015.01.22-01.58.32:941][322]BlueprintEditorCompileResults: Info [3718.23] Compile of TestMob successful! [in 59 ms]
+[2015.01.22-01.58.36:695][500]LogFMOD:Warning: Enabling live update
+[2015.01.22-01.58.36:701][500]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-01.58.36:701][500]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-01.58.36:775][500]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060D1D73900
+[2015.01.22-01.58.36:775][500]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-01.58.36:848][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.01.22-01.58.36:848][500]LogPlayLevel: [PIE] Compiling TervaCharacter before PIE...
+[2015.01.22-01.58.37:131][500]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.22-01.58.37:235][500]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.22-01.58.37:320][500]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.22-01.58.37:443][500]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-01.58.37:542][500]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-01.58.37:800][500]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-01.58.37:942][500]LogPlayLevel: PIE:  Blueprint regeneration took 1166 ms (7 blueprints)
+[2015.01.22-01.58.37:942][500]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 1:58:37 PM)
+[2015.01.22-01.58.37:951][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008590s)
+[2015.01.22-01.58.37:951][500]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2015.01.22-01.58.37:951][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.009231s)
+[2015.01.22-01.58.37:984][500]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-01.58.37:987][500]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-01.58.37:989][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-19.58.37
+[2015.01.22-01.58.37:990][500]LogWorld: Bringing up level for play took: 0.002898
+[2015.01.22-01.58.37:993][500]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.416
+[2015.01.22-01.58.38:046][501]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.58.38:050][501]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.58.38:063][501]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.58.38:064][501]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.58.38:064][501]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-01.58.50:184][ 28]LogBlueprintUserMessages: I see you!
+[2015.01.22-01.58.53:453][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.01.22-01.58.53:486][164]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_29.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.58.53:486][164]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_28.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-01.58.53:543][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C8B7E5C0
+[2015.01.22-02.00.01:996][477]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.00.02:013][477]LogBlueprint:Warning: [compiler] Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-02.00.02:016][477]LogBlueprint:Warning: [compiler] Warning [3807.51] Compile of RotAnimBP successful, but with 1 Warning(s) [in 6 ms]
+[2015.01.22-02.00.02:106][477]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.01.22-02.00.02:181][477]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.01.22-02.00.02:181][477]BlueprintEditorCompileResults:Warning: Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-02.00.02:181][477]BlueprintEditorCompileResults:Warning: Warning [3807.51] Compile of RotAnimBP successful, but with 1 Warning(s) [in 6 ms]
+[2015.01.22-02.00.33:355][991]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.00.33:372][991]LogBlueprint:Warning: [compiler] Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-02.00.33:375][991]LogBlueprint:Warning: [compiler] Warning [3838.87] Compile of RotAnimBP successful, but with 1 Warning(s) [in 6 ms]
+[2015.01.22-02.00.33:511][991]BlueprintEditorCompileResults:Warning: Warning  Attack to IdleWalkRun  will never be taken, please connect something to  Can Enter Transition 
+[2015.01.22-02.00.33:511][991]BlueprintEditorCompileResults:Warning: Warning [3838.87] Compile of RotAnimBP successful, but with 1 Warning(s) [in 6 ms]
+[2015.01.22-02.01.07:766][604]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.01.07:962][604]BlueprintEditorCompileResults: Info [3873.32] Compile of RotAnimBP successful! [in 7 ms]
+[2015.01.22-02.03.39:308][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.01.22-02.03.39:545][508]LogSavePackage: Save=52.000607ms
+[2015.01.22-02.03.39:545][508]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest_Auto6321D57904A9BAE8DD3E481AABEEA0B10.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Maps/EnemyTest_Auto6.umap'
+[2015.01.22-02.03.39:550][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.243
+[2015.01.22-02.03.39:550][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2015.01.22-02.03.39:563][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/TervaCharacter] ([1] browsable assets)...
+[2015.01.22-02.03.39:580][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/TervaCharacter.TervaCharacter]
+[2015.01.22-02.03.39:580][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TervaCharacter]
+[2015.01.22-02.03.39:984][508]LogSavePackage: Save=303.659332ms
+[2015.01.22-02.03.39:984][508]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TervaCharacter_Auto68C77BE1C46E07637E58CE1944321BF4B.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Blueprints/TervaCharacter_Auto6.uasset'
+[2015.01.22-02.03.40:005][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-02.03.40:028][508]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-02.03.40:029][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-02.03.40:327][508]LogSavePackage: Save=194.093628ms
+[2015.01.22-02.03.40:327][508]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto6079EDA584ACA869E8A9C4CA352A04990.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto6.uasset'
+[2015.01.22-02.03.40:350][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestEnemy/TestMob] ([1] browsable assets)...
+[2015.01.22-02.03.40:379][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TestEnemy/TestMob.TestMob]
+[2015.01.22-02.03.40:379][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/TestMob]
+[2015.01.22-02.03.40:695][508]LogSavePackage: Save=211.746902ms
+[2015.01.22-02.03.40:695][508]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMob_Auto6EB05734244C2B351949B1B8118F1B24B.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/TestMob_Auto6.uasset'
+[2015.01.22-02.03.40:701][508]LogFileHelpers: Auto-saving content packages took 1.151
+[2015.01.22-02.03.53:054][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.01.22-02.03.53:054][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.01.22-02.04.00:438][477]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.01.22-02.04.17:283][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.01.22-02.05.18:378][788]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-02.05.18:378][788]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-02.05.18:378][788]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.22-02.05.46:682][983]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.05.46:731][983]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection
+[2015.01.22-02.05.46:733][983]LogBlueprint:Warning: [compiler] Warning [4152.23] Compile of RotAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.01.22-02.05.47:129][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.01.22-02.05.47:193][983]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection
+[2015.01.22-02.05.47:193][983]BlueprintEditorCompileResults:Warning: Warning [4152.23] Compile of RotAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.01.22-02.05.48:079][ 24]BlueprintLog: New page: Compile TestMob
+[2015.01.22-02.05.48:349][ 24]BlueprintEditorCompileResults: Info [4153.65] Compile of TestMob successful! [in 65 ms]
+[2015.01.22-02.05.48:796][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/TestMob" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset" SILENT=true
+[2015.01.22-02.05.49:092][ 43]LogSavePackage: Save=211.210526ms
+[2015.01.22-02.05.49:092][ 43]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMob36F7F2104F5CDE00A67BEEB71D068956.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset'
+[2015.01.22-02.06.29:594][791]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.06.29:617][791]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection
+[2015.01.22-02.06.29:619][791]LogBlueprint:Warning: [compiler] Warning [4195.12] Compile of RotAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.01.22-02.06.29:951][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.01.22-02.06.30:029][791]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection
+[2015.01.22-02.06.30:029][791]BlueprintEditorCompileResults:Warning: Warning [4195.12] Compile of RotAnimBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.01.22-02.06.46:174][516]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.06.46:388][516]BlueprintEditorCompileResults: Info [4211.72] Compile of RotAnimBP successful! [in 7 ms]
+[2015.01.22-02.06.48:083][581]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.06.48:090][581]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.06.48:090][581]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.06.48:165][581]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E69DF900
+[2015.01.22-02.06.48:165][581]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.06.48:165][581]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.22-02.06.48:281][581]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.22-02.06.48:386][581]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.22-02.06.48:478][581]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-02.06.48:614][581]LogPlayLevel: PIE:  Blueprint regeneration took 450 ms (4 blueprints)
+[2015.01.22-02.06.48:615][581]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:06:48 PM)
+[2015.01.22-02.06.48:625][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009604s)
+[2015.01.22-02.06.48:625][581]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2015.01.22-02.06.48:625][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010290s)
+[2015.01.22-02.06.48:655][581]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.06.48:659][581]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.06.48:661][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.06.48
+[2015.01.22-02.06.48:662][581]LogWorld: Bringing up level for play took: 0.002848
+[2015.01.22-02.06.48:665][581]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.088
+[2015.01.22-02.06.48:714][582]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.06.48:749][583]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.06.48:749][583]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.06.48:749][583]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.06.48:749][583]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.06.54:163][802]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.06.56:594][898]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.07.09:548][420]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.07.10:435][456]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.07.11:808][512]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.07.13:941][599]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.07.15:577][665]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.07.17:379][738]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.07.18:974][803]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.07.22:259][937]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.07.24:945][ 47]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.07.30:999][295]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.07.32:932][374]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.07.42:041][734]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_31.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.07.42:041][734]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_30.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.07.42:078][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060F1C936A0
+[2015.01.22-02.07.51:114][121]BlueprintLog: New page: Compile RotAnimBP
+[2015.01.22-02.07.51:372][121]BlueprintEditorCompileResults: Info [4276.68] Compile of RotAnimBP successful! [in 7 ms]
+[2015.01.22-02.07.55:155][286]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.07.55:162][286]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.07.55:162][286]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.07.55:236][286]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060DC6D3900
+[2015.01.22-02.07.55:236][286]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.07.55:236][286]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:07:55 PM)
+[2015.01.22-02.07.55:247][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010700s)
+[2015.01.22-02.07.55:247][286]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.01.22-02.07.55:247][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.011377s)
+[2015.01.22-02.07.55:280][286]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.07.55:284][286]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.07.55:286][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.07.55
+[2015.01.22-02.07.55:287][286]LogWorld: Bringing up level for play took: 0.003005
+[2015.01.22-02.07.55:290][286]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.287
+[2015.01.22-02.07.55:368][288]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.07.55:368][288]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.07.55:368][288]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.07.55:368][288]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.07.55:368][288]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.07.59:954][473]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.08.09:377][850]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.08.20:179][279]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_33.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.08.20:179][279]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_32.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.08.20:220][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060D4C13E20
+[2015.01.22-02.08.29:119][745]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.08.29:126][745]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.08.29:126][745]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.08.29:200][745]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060CFF8B900
+[2015.01.22-02.08.29:200][745]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.08.29:200][745]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:08:29 PM)
+[2015.01.22-02.08.29:209][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009355s)
+[2015.01.22-02.08.29:210][745]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2015.01.22-02.08.29:210][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010073s)
+[2015.01.22-02.08.29:239][745]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.08.29:242][745]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.08.29:244][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.08.29
+[2015.01.22-02.08.29:245][745]LogWorld: Bringing up level for play took: 0.002897
+[2015.01.22-02.08.29:248][745]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.329
+[2015.01.22-02.08.29:319][747]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.08.29:324][747]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.08.29:344][748]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.08.29:345][748]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.08.29:345][748]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.08.32:842][912]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.08.36:427][ 82]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.08.40:760][287]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.08.49:470][698]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.08.52:155][825]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.08.56:385][ 25]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.08.57:197][ 64]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.08.59:791][189]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.09.03:009][342]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.09.03:480][364]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.09.05:460][454]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.09.12:415][785]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.09.13:521][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.01.22-02.09.13:521][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.01.22-02.09.13:557][830]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_35.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.09.13:557][830]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_34.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.09.13:559][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060E46404A0
+[2015.01.22-02.09.17:680][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.01.22-02.09.17:680][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.01.22-02.09.18:074][ 37]LogSavePackage: Save=50.065868ms
+[2015.01.22-02.09.18:074][ 37]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest6EBAEE064903D5AC4F7502B8B6E8EBA2.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap'
+[2015.01.22-02.09.18:239][ 37]LogFileHelpers: Saving map 'EnemyTest' took 0.494
+[2015.01.22-02.09.18:243][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TervaCharacter" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/TervaCharacter.uasset" SILENT=true
+[2015.01.22-02.09.18:498][ 37]LogSavePackage: Save=168.424316ms
+[2015.01.22-02.09.18:499][ 37]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TervaCharacter09621E2246106C42B366C1A5867CA745.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Blueprints/TervaCharacter.uasset'
+[2015.01.22-02.09.18:516][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Rot/RotAnimBP" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Character/Rot/RotAnimBP.uasset" SILENT=true
+[2015.01.22-02.09.18:803][ 37]LogSavePackage: Save=193.101868ms
+[2015.01.22-02.09.18:803][ 37]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBPF6BD9BDB477DDA03A952678D876DD686.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Character/Rot/RotAnimBP.uasset'
+[2015.01.22-02.09.18:811][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/TestMobTree" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMobTree.uasset" SILENT=true
+[2015.01.22-02.09.18:910][ 37]LogSavePackage: Save=9.618877ms
+[2015.01.22-02.09.18:910][ 37]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMobTreeF5E9D3E44228EA9A5DFB09B03A136B8F.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMobTree.uasset'
+[2015.01.22-02.10.31:024][716]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.01.22-02.10.32:389][779]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.10.52:183][694]Cmd: TRANSACTION UNDO
+[2015.01.22-02.10.52:183][694]LogEditorTransaction: Undo Move Actors
+[2015.01.22-02.10.55:033][694]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.01.22-02.10.55:033][694]LogGeometryMode:Warning: Unable to resolve BoxBrush Brush in new BSP, see above
+[2015.01.22-02.10.55:033][694]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.01.22-02.10.55:176][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.01.22-02.10.55:176][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2015.01.22-02.11.00:509][916]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_3:PersistentLevel.Model_6 or Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush.Model_6
+[2015.01.22-02.11.00:509][916]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_3:PersistentLevel.Model_6 or Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_5.Model_6
+[2015.01.22-02.11.00:509][916]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Model /Engine/Transient.World_3:PersistentLevel.Model_6) from referencer (BrushComponent /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_25.BrushComponent0).  Import failed...
+[2015.01.22-02.11.00:509][916]LogProperty:Warning: ObjectProperty /Script/Engine.BrushComponent:Brush: unresolved reference to 'Model'Model_6''
+[2015.01.22-02.11.43:928][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.12.16:959][384]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.12.16:965][384]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.12.16:965][384]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.12.17:041][384]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060A694B900
+[2015.01.22-02.12.17:041][384]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.12.17:115][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2015.01.22-02.12.17:115][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2015.01.22-02.12.17:115][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2015.01.22-02.12.17:115][384]LogPlayLevel: [PIE] Compiling TervaCharacter before PIE...
+[2015.01.22-02.12.17:449][384]LogPlayLevel: [PIE] Compiling BTD_mobUpdateRoute before PIE...
+[2015.01.22-02.12.17:543][384]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-02.12.17:646][384]LogPlayLevel: [PIE] Compiling RotAnimBP before PIE...
+[2015.01.22-02.12.17:916][384]LogPlayLevel: [PIE] Compiling HeroTPP_AnimBlueprint before PIE...
+[2015.01.22-02.12.18:040][384]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-02.12.18:272][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060ACE74AE0
+[2015.01.22-02.12.18:294][384]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-02.12.18:441][384]LogPlayLevel: PIE:  Blueprint regeneration took 1400 ms (7 blueprints)
+[2015.01.22-02.12.18:442][384]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:12:18 PM)
+[2015.01.22-02.12.18:452][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009922s)
+[2015.01.22-02.12.18:452][384]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.01.22-02.12.18:452][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010563s)
+[2015.01.22-02.12.18:482][384]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.12.18:486][384]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.12.18:488][384]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.12.18
+[2015.01.22-02.12.18:489][384]LogWorld: Bringing up level for play took: 0.003223
+[2015.01.22-02.12.18:492][384]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.915
+[2015.01.22-02.12.18:660][385]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.12.18:687][386]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.12.18:687][386]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.12.18:687][386]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.12.18:687][386]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.12.33:462][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2015.01.22-02.12.33:493][ 19]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_37.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.12.33:493][ 19]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_36.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.12.33:530][ 20]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C93AB2E0
+[2015.01.22-02.12.37:172][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_2)
+[2015.01.22-02.12.45:015][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_8)
+[2015.01.22-02.12.55:294][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_3)
+[2015.01.22-02.13.03:442][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2015.01.22-02.13.04:472][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_10)
+[2015.01.22-02.13.07:608][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_9)
+[2015.01.22-02.13.13:090][832]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.13.13:097][832]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.13.13:097][832]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.13.13:171][832]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E63BF900
+[2015.01.22-02.13.13:171][832]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.13.13:171][832]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:13:13 PM)
+[2015.01.22-02.13.13:183][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012107s)
+[2015.01.22-02.13.13:184][832]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2015.01.22-02.13.13:184][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012899s)
+[2015.01.22-02.13.13:214][832]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.13.13:217][832]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.13.13:220][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.13.13
+[2015.01.22-02.13.13:221][832]LogWorld: Bringing up level for play took: 0.003938
+[2015.01.22-02.13.13:224][832]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.352
+[2015.01.22-02.13.13:285][833]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.13.13:297][833]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.13.13:323][834]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.13.13:323][834]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.13.13:323][834]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.13.21:764][188]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service BTS_mobDetectEnemy_C_13 with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_38.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.13.21:764][188]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: None.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.13.21:805][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000608E990B80
+[2015.01.22-02.13.39:473][950]LogEditorViewport: Clicking Background
+[2015.01.22-02.13.52:487][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_15)
+[2015.01.22-02.13.53:363][584]LogEditorViewport: Clicking Background
+[2015.01.22-02.13.58:553][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_11)
+[2015.01.22-02.13.59:671][872]LogEditorViewport: Clicking Background
+[2015.01.22-02.14.00:901][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_15)
+[2015.01.22-02.14.18:362][725]Cmd: ACTOR SELECT ALL
+[2015.01.22-02.14.20:987][833]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.01.22-02.14.29:423][196]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.14.29:430][196]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.14.29:430][196]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.14.29:504][196]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E7947900
+[2015.01.22-02.14.29:504][196]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.14.29:504][196]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:14:29 PM)
+[2015.01.22-02.14.29:514][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010114s)
+[2015.01.22-02.14.29:515][196]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2015.01.22-02.14.29:515][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010823s)
+[2015.01.22-02.14.29:546][196]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.14.29:549][196]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.14.29:552][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.14.29
+[2015.01.22-02.14.29:553][196]LogWorld: Bringing up level for play took: 0.003208
+[2015.01.22-02.14.29:555][196]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest -0.022
+[2015.01.22-02.14.29:639][198]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.29:639][198]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.29:639][198]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.29:639][198]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.29:639][198]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.31:750][274]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_41.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.14.31:750][274]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_40.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.14.31:787][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C986E3E0
+[2015.01.22-02.14.33:807][355]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.14.33:813][355]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.14.33:813][355]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.14.33:887][355]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060E0BCF900
+[2015.01.22-02.14.33:887][355]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.01.22-02.14.33:887][355]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:14:33 PM)
+[2015.01.22-02.14.33:899][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011833s)
+[2015.01.22-02.14.33:899][355]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2015.01.22-02.14.33:900][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012484s)
+[2015.01.22-02.14.33:930][355]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.14.33:934][355]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.14.33:936][355]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.14.33
+[2015.01.22-02.14.33:937][355]LogWorld: Bringing up level for play took: 0.003246
+[2015.01.22-02.14.33:940][355]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 0.363
+[2015.01.22-02.14.34:011][357]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.34:011][357]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.34:016][357]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.34:016][357]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.34:016][357]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.14.38:252][528]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_43.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.14.38:252][528]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_42.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.14.38:289][529]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060AAC31A80
+[2015.01.22-02.14.46:774][923]Cmd: TRANSACTION UNDO
+[2015.01.22-02.14.46:774][923]LogEditorTransaction: Undo Scale Actors
+[2015.01.22-02.15.08:314][885]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.15.08:321][885]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.15.08:321][885]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.15.08:395][885]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060A2AEB900
+[2015.01.22-02.15.08:395][885]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.15.08:468][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.01.22-02.15.08:468][885]LogPlayLevel: [PIE] Compiling TervaCharacter before PIE...
+[2015.01.22-02.15.08:770][885]LogPlayLevel: [PIE] Compiling BTD_mobUpdateRoute before PIE...
+[2015.01.22-02.15.08:854][885]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-02.15.08:945][885]LogPlayLevel: [PIE] Compiling RotAnimBP before PIE...
+[2015.01.22-02.15.09:138][885]LogPlayLevel: [PIE] Compiling HeroTPP_AnimBlueprint before PIE...
+[2015.01.22-02.15.09:254][885]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-02.15.09:510][885]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-02.15.09:635][885]LogPlayLevel: PIE:  Blueprint regeneration took 1239 ms (7 blueprints)
+[2015.01.22-02.15.09:635][885]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:15:09 PM)
+[2015.01.22-02.15.09:646][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010992s)
+[2015.01.22-02.15.09:647][885]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2015.01.22-02.15.09:647][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.011761s)
+[2015.01.22-02.15.09:679][885]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.15.09:682][885]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.15.09:684][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.15.09
+[2015.01.22-02.15.09:685][885]LogWorld: Bringing up level for play took: 0.003029
+[2015.01.22-02.15.09:687][885]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 2.111
+[2015.01.22-02.15.09:846][886]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.15.09:873][887]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.15.09:873][887]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.15.09:873][887]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.15.09:873][887]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.15.16:441][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.01.22-02.15.16:472][189]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_45.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.15.16:472][189]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_44.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.15.16:527][190]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060BAED9EE0
+[2015.01.22-02.15.47:117][561]Cmd: TRANSACTION UNDO
+[2015.01.22-02.15.47:117][561]LogEditorTransaction: Undo Scale Actors
+[2015.01.22-02.15.50:367][689]Cmd: TRANSACTION UNDO
+[2015.01.22-02.15.50:367][689]LogEditorTransaction: Undo Scale Actors
+[2015.01.22-02.15.50:510][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.01.22-02.15.55:700][909]Cmd: TRANSACTION UNDO
+[2015.01.22-02.15.55:700][909]LogEditorTransaction: Undo Scale Actors
+[2015.01.22-02.15.55:841][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.01.22-02.16.00:493][105]Cmd: TRANSACTION UNDO
+[2015.01.22-02.16.00:493][105]LogEditorTransaction: Undo Scale Actors
+[2015.01.22-02.16.00:637][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.01.22-02.16.13:816][690]Cmd: TRANSACTION UNDO
+[2015.01.22-02.16.13:816][690]LogEditorTransaction: Undo Set actor scale
+[2015.01.22-02.16.13:954][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.01.22-02.16.17:157][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_14)
+[2015.01.22-02.16.18:640][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_6)
+[2015.01.22-02.16.19:690][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane_14)
+[2015.01.22-02.16.20:546][965]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shape_Plane_13)
+[2015.01.22-02.16.21:088][989]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shape_Plane_11)
+[2015.01.22-02.16.21:886][ 25]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shape_Plane_2)
+[2015.01.22-02.16.22:951][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shape_Plane_6)
+[2015.01.22-02.16.28:228][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.16.38:245][774]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.16.38:251][774]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.16.38:251][774]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.16.38:327][774]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060BB11F900
+[2015.01.22-02.16.38:327][774]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.16.38:402][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2015.01.22-02.16.38:402][774]LogPlayLevel: [PIE] Compiling TervaCharacter before PIE...
+[2015.01.22-02.16.38:699][774]LogPlayLevel: [PIE] Compiling BTD_mobUpdateRoute before PIE...
+[2015.01.22-02.16.38:792][774]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-02.16.38:893][774]LogPlayLevel: [PIE] Compiling RotAnimBP before PIE...
+[2015.01.22-02.16.39:114][774]LogPlayLevel: [PIE] Compiling HeroTPP_AnimBlueprint before PIE...
+[2015.01.22-02.16.39:243][774]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-02.16.39:541][774]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-02.16.39:699][774]LogPlayLevel: PIE:  Blueprint regeneration took 1371 ms (7 blueprints)
+[2015.01.22-02.16.39:699][774]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:16:39 PM)
+[2015.01.22-02.16.39:711][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011781s)
+[2015.01.22-02.16.39:712][774]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2015.01.22-02.16.39:712][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.012445s)
+[2015.01.22-02.16.39:742][774]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.16.39:746][774]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.16.39:748][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.16.39
+[2015.01.22-02.16.39:749][774]LogWorld: Bringing up level for play took: 0.003124
+[2015.01.22-02.16.39:751][774]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 2.175
+[2015.01.22-02.16.39:912][775]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.16.39:920][775]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.16.39:944][776]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.16.39:944][776]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.16.39:944][776]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.16.48:774][194]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.16.51:836][339]LogBlueprintUserMessages: I see you!
+[2015.01.22-02.16.53:882][436]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.16.53:923][438]LogBlueprintUserMessages: Get back here!
+[2015.01.22-02.16.55:327][505]LogBlueprintUserMessages: Attack!
+[2015.01.22-02.16.56:049][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2015.01.22-02.16.56:080][533]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_47.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.16.56:080][533]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_46.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.16.56:126][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060C91AB920
+[2015.01.22-02.17.32:762][282]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_11.Model_6 or Model /Engine/Transient.World_3:PersistentLevel.Model_6
+[2015.01.22-02.17.32:762][282]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_11.Model_6 or Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush.Model_6
+[2015.01.22-02.17.32:762][282]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_11.Model_6 or Model /Game/Maps/EnemyTest.EnemyTest:PersistentLevel.BoxBrush_5.Model_6
+[2015.01.22-02.18.41:443][ 39]Cmd: TRANSACTION UNDO
+[2015.01.22-02.18.41:443][ 39]LogEditorTransaction: Undo Move Actors
+[2015.01.22-02.18.46:915][ 39]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.01.22-02.18.46:915][ 39]LogGeometryMode:Warning: Unable to resolve BoxBrush_27 Brush in new BSP, see above
+[2015.01.22-02.18.46:915][ 39]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.01.22-02.18.47:053][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2015.01.22-02.18.47:053][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2015.01.22-02.18.47:053][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2015.01.22-02.19.06:312][785]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.20.20:373][687]Cmd: TRANSACTION UNDO
+[2015.01.22-02.20.20:373][687]LogEditorTransaction: Undo Move Actors
+[2015.01.22-02.20.26:859][687]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2015.01.22-02.20.26:859][687]LogGeometryMode:Warning: Unable to resolve BoxBrush_11 Brush in new BSP, see above
+[2015.01.22-02.20.26:859][687]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.01.22-02.20.26:996][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2015.01.22-02.20.26:996][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2015.01.22-02.20.30:324][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2015.01.22-02.20.30:553][790]LogSavePackage: Save=60.752705ms
+[2015.01.22-02.20.30:553][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTest_Auto7330C979242606336D231E28BF3A1BA7B.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Maps/EnemyTest_Auto7.umap'
+[2015.01.22-02.20.30:564][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/EnemyTest' took 0.240
+[2015.01.22-02.20.30:564][790]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.240
+[2015.01.22-02.20.30:576][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/TervaCharacter] ([1] browsable assets)...
+[2015.01.22-02.20.30:597][790]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/TervaCharacter.TervaCharacter]
+[2015.01.22-02.20.30:597][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TervaCharacter]
+[2015.01.22-02.20.31:009][790]LogSavePackage: Save=302.594055ms
+[2015.01.22-02.20.31:009][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TervaCharacter_Auto7875CCA5C452A92E1CA04EA9D012472A6.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Blueprints/TervaCharacter_Auto7.uasset'
+[2015.01.22-02.20.31:029][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Rot/RotAnimBP] ([1] browsable assets)...
+[2015.01.22-02.20.31:044][790]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Rot/RotAnimBP.RotAnimBP]
+[2015.01.22-02.20.31:044][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Rot/RotAnimBP]
+[2015.01.22-02.20.31:334][790]LogSavePackage: Save=184.062744ms
+[2015.01.22-02.20.31:334][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/RotAnimBP_Auto7EEE8246D487D0D066D1E84B7C27283AB.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/Rot/RotAnimBP_Auto7.uasset'
+[2015.01.22-02.20.31:354][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy/BTD_mobUpdateRoute] ([1] browsable assets)...
+[2015.01.22-02.20.31:367][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/BTD_mobUpdateRoute]
+[2015.01.22-02.20.31:485][790]LogSavePackage: Save=13.755193ms
+[2015.01.22-02.20.31:485][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTD_mobUpdateRoute_Auto7E25D674E44B5FE01A884E2A028CDAC92.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/BTD_mobUpdateRoute_Auto7.uasset'
+[2015.01.22-02.20.31:506][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestEnemy/BTT_mobWalkSpeed] ([1] browsable assets)...
+[2015.01.22-02.20.31:517][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestEnemy/BTT_mobWalkSpeed]
+[2015.01.22-02.20.31:636][790]LogSavePackage: Save=13.011596ms
+[2015.01.22-02.20.31:636][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/BTT_mobWalkSpeed_Auto7A1C72CE346ACC7FC426F7A82E6334983.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/TestEnemy/BTT_mobWalkSpeed_Auto7.uasset'
+[2015.01.22-02.20.31:655][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/HeroTPP_AnimBlueprint] ([1] browsable assets)...
+[2015.01.22-02.20.31:678][790]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint]
+[2015.01.22-02.20.31:678][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/HeroTPP_AnimBlueprint]
+[2015.01.22-02.20.32:096][790]LogSavePackage: Save=315.612274ms
+[2015.01.22-02.20.32:096][790]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/HeroTPP_AnimBlueprint_Auto740407EE7478DFF764DE3DA9B4F277025.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Autosaves/Game/Character/HeroTPP_AnimBlueprint_Auto7.uasset'
+[2015.01.22-02.20.32:104][790]LogFileHelpers: Auto-saving content packages took 1.540
+[2015.01.22-02.20.44:522][262]LogFMOD:Warning: Enabling live update
+[2015.01.22-02.20.44:529][262]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.22-02.20.44:529][262]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.22-02.20.44:603][262]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 00000060D02EF900
+[2015.01.22-02.20.44:603][262]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.22-02.20.44:677][262]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2015.01.22-02.20.44:677][262]LogPlayLevel: [PIE] Compiling TervaCharacter before PIE...
+[2015.01.22-02.20.44:965][262]LogPlayLevel: [PIE] Compiling BTD_mobUpdateRoute before PIE...
+[2015.01.22-02.20.45:060][262]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.22-02.20.45:153][262]LogPlayLevel: [PIE] Compiling RotAnimBP before PIE...
+[2015.01.22-02.20.45:497][262]LogPlayLevel: [PIE] Compiling HeroTPP_AnimBlueprint before PIE...
+[2015.01.22-02.20.45:617][262]LogPlayLevel: [PIE] Compiling DoorTeleport before PIE...
+[2015.01.22-02.20.45:851][262]LogPlayLevel: [PIE] Compiling DoorLevelport before PIE...
+[2015.01.22-02.20.45:978][262]LogPlayLevel: PIE:  Blueprint regeneration took 1375 ms (7 blueprints)
+[2015.01.22-02.20.45:978][262]PIE: New page: PIE session: EnemyTest (Jan 21, 2015, 2:20:45 PM)
+[2015.01.22-02.20.45:991][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012813s)
+[2015.01.22-02.20.45:991][262]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2015.01.22-02.20.45:992][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.013488s)
+[2015.01.22-02.20.46:026][262]LogWorld: Game class is 'TarGame_C'
+[2015.01.22-02.20.46:029][262]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.22-02.20.46:031][262]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.21-20.20.46
+[2015.01.22-02.20.46:032][262]LogWorld: Bringing up level for play took: 0.003344
+[2015.01.22-02.20.46:035][262]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 2.458
+[2015.01.22-02.20.46:228][264]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.20.46:228][264]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.20.46:228][264]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.20.46:228][264]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.20.46:228][264]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000609173F900
+[2015.01.22-02.20.57:864][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2015.01.22-02.20.57:910][745]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_49.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.20.57:910][745]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_48.  OwnerComponent has BeginDestroyed flag
+[2015.01.22-02.20.57:957][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000060D01CF1A0
+[2015.01.22-02.21.31:103][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.21.42:516][637]Cmd: TRANSACTION UNDO
+[2015.01.22-02.21.42:516][637]LogEditorTransaction: Undo Modifier [Split]
+[2015.01.22-02.21.48:421][637]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.21.59:996][ 99]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.01.22-02.22.29:321][192]LogGeometryMode:Warning: Unable to find BoxBrush_27 Brush(s) in new BSP
+[2015.01.22-02.22.29:321][192]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.01.22-02.22.34:635][411]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2015.01.22-02.23.23:788][326]LogCrashTracker: 
+
+
+[2015.01.22-02.23.34:254][326]LogCrashTracker: 
+
+
+[2015.01.22-02.23.34:254][326]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x00000000
+
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffca609904b) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffca3e66e59) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffca3e0efd8) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffca3dff84c) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffca3e5b836) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffca6468f64) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffca527f62b) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffca51c8b4c) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffca51b8b26) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca8053ecd) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca80462ab) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca8055019) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca8043542) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcc8c82434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcc8c82297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca80f2ed6) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff67478a752) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launchengineloop.cpp:2111]
+UE4Editor.exe!GuardedMain() (0x00007ff67477f9df) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\launch.cpp:133]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff67477fa4a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:125]
+UE4Editor.exe!WinMain() (0x00007ff67478bf19) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.5\engine\source\runtime\launch\private\windows\launchwindows.cpp:201]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff67478cdc9) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcc98916ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcc9c74409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcc9c74409) + 0 bytes [UnknownFile:0]
+
+
+[2015.01.22-02.23.34:413][326]LogExit: Executing StaticShutdownAfterError
+[2015.01.22-02.23.34:591][326]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.01.22-02.23.34:591][326]Log file closed, 01/21/15 20:23:34

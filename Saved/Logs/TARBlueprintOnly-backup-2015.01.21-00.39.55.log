@@ -1,0 +1,436 @@
+﻿Log file open, 01/20/15 22:30:01
+LogInit:Display: Running engine for game: TARBlueprintOnly
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.21-04.30.01:268][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.01.21-04.30.01:296][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.21-04.30.01:315][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.21-04.30.01:323][  0]LogInit: Object subsystem initialized
+[2015.01.21-04.30.01:326][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.21-04.30.01:326][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-04.30.01:326][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.01.21-04.30.01:326][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.21-04.30.01:327][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.21-04.30.01:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.21-04.30.01:332][  0]LogInit: Computer: ONO-SENDAI8
+[2015.01.21-04.30.01:332][  0]LogInit: User: Dalton
+[2015.01.21-04.30.01:332][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.01.21-04.30.01:333][  0]LogInit: High frequency timer resolution =3.320346 MHz
+[2015.01.21-04.30.01:333][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.01.21-04.30.01:333][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.21-04.30.01:333][  0]LogMemory: Process Physical Memory: 67.08 MB used, 67.08 MB peak
+[2015.01.21-04.30.01:333][  0]LogMemory: Process Virtual Memory: 42.55 MB used, 42.55 MB peak
+[2015.01.21-04.30.01:333][  0]LogMemory: Physical Memory: 4998.72 MB used, 8087.00 MB total
+[2015.01.21-04.30.01:333][  0]LogMemory: Virtual Memory: 286.06 MB used, 134217728.00 MB total
+[2015.01.21-04.30.01:357][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.01.21-04.30.01:357][  0]LogD3D11RHI: Adapter has 3906MB of dedicated video memory, 0MB of dedicated system memory, and 4043MB of shared system memory, 2 output[s]
+[2015.01.21-04.30.01:361][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.01.21-04.30.01:361][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.01.21-04.30.01:362][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.01.21-04.30.01:362][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.01.21-04.30.01:362][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.21-04.30.01:365][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.21-04.30.01:376][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.21-04.30.01:427][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.21-04.30.01:545][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.21-04.30.06:016][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-04.30.06:430][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-04.30.06:478][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.21-04.30.06:519][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.21-04.30.06:519][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.01.21-04.30.06:519][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.21-04.30.06:519][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.21-04.30.06:579][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.21-04.30.06:591][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dalton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.21-04.30.06:766][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.21-04.30.06:766][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.21-04.30.06:977][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.21-04.30.06:980][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.21-04.30.07:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.21-04.30.07:889][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.21-04.30.08:050][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Binaries/Win64. Error: 0
+[2015.01.21-04.30.08:169][  0]SourceControl: Info Source control is disabled
+[2015.01.21-04.30.08:169][  0]SourceControl: Info Source control is disabled
+[2015.01.21-04.30.08:176][  0]SourceControl: Info Source control is disabled
+[2015.01.21-04.30.08:234][  0]LogFMOD:Warning: FFMODStudioModule startup
+[2015.01.21-04.30.08:234][  0]LogFMOD:Warning: FFMODStudioModule::LoadDll
+[2015.01.21-04.30.08:235][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodL64.dll
+[2015.01.21-04.30.08:236][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Binaries/ThirdParty/FMODStudio/Win64/fmodstudioL64.dll
+[2015.01.21-04.30.08:303][  0]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.strings.bank' returned archive 000000C54ECFB900
+[2015.01.21-04.30.08:303][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2015.01.21-04.30.08:322][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.01.21-04.30.08:322][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.21-04.30.08:322][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience
+[2015.01.21-04.30.08:322][  0]LogFMOD: Skippping asset: bus:/
+[2015.01.21-04.30.08:322][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2015.01.21-04.30.08:323][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jumpswoosh
+[2015.01.21-04.30.08:323][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Jump
+[2015.01.21-04.30.08:323][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Steps
+[2015.01.21-04.30.08:397][  0]LogObj: 23051 objects as part of root set at end of initial load.
+[2015.01.21-04.30.08:397][  0]LogUObjectAllocator: 4828848 out of 0 bytes used by permanent object pool.
+[2015.01.21-04.30.08:447][  0]LogEngine: Initializing Engine...
+[2015.01.21-04.30.08:583][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar Essence STX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.01.21-04.30.08:590][  0]LogInit: FAudioDevice initialized.
+[2015.01.21-04.30.08:609][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.21-04.30.08:630][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Dalton/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.01.21-04.30.08:633][  0]LogInit: Texture streaming: Enabled
+[2015.01.21-04.30.08:670][  0]LogInit: Transaction tracking system initialized
+[2015.01.21-04.30.08:754][  0]BlueprintLog: New page: Editor Load
+[2015.01.21-04.30.09:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-04.30.09:519][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.21-04.30.09:701][  0]LogConsoleResponse:Display: 
+[2015.01.21-04.30.09:884][  0]SourceControl: Info Source control is disabled
+[2015.01.21-04.30.09:884][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/Test_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.21-04.30.09:884][  0]LightingResults: New page: Lighting Build
+[2015.01.21-04.30.09:892][  0]MapCheck: New page: Map Check
+[2015.01.21-04.30.09:892][  0]LightingResults: New page: Lighting Build
+[2015.01.21-04.30.09:906][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C554B1AA20
+[2015.01.21-04.30.11:016][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.21-04.30.11:016][  0]LogAIModule: Creating AISystem for world Test_Map
+[2015.01.21-04.30.11:017][  0]Cmd: MAP CHECKDEP
+[2015.01.21-04.30.11:017][  0]MapCheck: New page: Test_Map - Jan 20, 2015, 4:30:11 PM
+[2015.01.21-04.30.11:127][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.371ms to complete.
+[2015.01.21-04.30.11:127][  0]LogFileHelpers: Loading map 'Test_Map' took 1.243
+[2015.01.21-04.30.11:214][  0]LogCollectionManager: Loaded 0 collections in 0.000812 seconds
+[2015.01.21-04.30.11:394][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.21-04.30.11:495][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.21-04.30.11:521][  0]LogLoad: Full Startup: 12.56 seconds (BP compile: 0.46 seconds)
+[2015.01.21-04.30.11:864][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.01.21-04.30.12:047][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.01.21-04.30.12:886][  3]LogAssetRegistry: Asset discovery search completed in 4.5757 seconds
+[2015.01.21-04.31.25:378][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.01.21-04.31.25:433][570]Cmd: MAP LOAD FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.21-04.31.25:433][570]LightingResults: New page: Lighting Build
+[2015.01.21-04.31.25:466][570]LoadErrors: New page: Loading map: EnemyTest.umap
+[2015.01.21-04.31.25:468][570]MapCheck: New page: Map Check
+[2015.01.21-04.31.25:468][570]LightingResults: New page: Lighting Build
+[2015.01.21-04.31.25:491][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C54A374AE0
+[2015.01.21-04.31.25:802][570]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:UserConstructionScript; removing parent information, but keeping function
+[2015.01.21-04.31.25:802][570]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_25_ComponentEndOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.21-04.31.25:802][570]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/DoorLevelport.DoorLevelport_C:BndEvt__TriggerVolume_K2Node_ComponentBoundEvent_11_ComponentBeginOverlapSignature__DelegateSignature; removing parent information, but keeping function
+[2015.01.21-04.31.25:975][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.21-04.31.25:975][570]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.21-04.31.26:142][570]Cmd: MAP CHECKDEP
+[2015.01.21-04.31.26:142][570]MapCheck: New page: EnemyTest - Jan 20, 2015, 4:31:26 PM
+[2015.01.21-04.31.26:275][570]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 133.009ms to complete.
+[2015.01.21-04.31.26:275][570]LogFileHelpers: Loading map 'EnemyTest' took 0.845
+[2015.01.21-04.31.31:895][ 62]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.01.21-04.31.32:623][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TestEnemy'
+[2015.01.21-04.31.43:005][923]LogRenderer:Warning: Reallocating scene render targets to support 1512x904.
+[2015.01.21-04.31.55:711][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:711][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:713][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:713][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:713][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:713][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:713][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.31.55:714][367]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.03:110][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.03:110][ 36]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:577][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:578][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.23:578][923]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.01.21-04.32.53:596][ 27]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.01.21-04.33.06:853][382]LogMaterial: Missing cached shader map for material PassiveBlue, compiling.
+[2015.01.21-04.33.08:433][515]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.21-04.33.08:467][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.01.21-04.33.08:672][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.01.21-04.33.08:672][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.21-04.33.08:672][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.01.21-04.33.08:672][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.01.21-04.33.08:765][515]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.21-04.33.08:811][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2015.01.21-04.33.18:862][544]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.21-04.33.18:898][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2015.01.21-04.33.19:198][569]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.01.21-04.33.19:198][569]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.01.21-04.33.19:198][569]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.01.21-04.33.24:216][120]LogMaterialEditor: Saving and Compiling material PassiveBlue
+[2015.01.21-04.33.25:597][120]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.01.21-04.33.25:670][120]LogMaterial: Missing cached shader map for material PassiveBlue, compiling.
+[2015.01.21-04.33.25:702][120]LogMaterial: Missing cached shader map for material PassiveBlue, compiling.
+[2015.01.21-04.33.25:739][120]LogMaterial: 0.004439 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.01.21-04.33.35:535][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PassiveBlue" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Materials/PassiveBlue.uasset" SILENT=true
+[2015.01.21-04.33.35:860][120]LogSavePackage: Save=322.272736ms
+[2015.01.21-04.33.35:861][120]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/PassiveBlueFB5EE2AC4B935F93F5EADDBD55DAC36D.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Materials/PassiveBlue.uasset'
+[2015.01.21-04.33.35:872][120]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.01.21-04.33.35:872][120]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.01.21-04.33.35:872][120]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.01.21-04.34.49:386][738]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.21-04.34.49:401][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.01.21-04.34.49:590][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.01.21-04.34.49:590][738]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.01.21-04.34.49:590][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.01.21-04.34.49:590][738]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.01.21-04.34.49:609][738]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.01.21-04.34.49:656][738]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2015.01.21-04.35.02:771][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.01.21-04.35.02:771][  2]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.01.21-04.35.02:771][  2]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.01.21-04.35.23:336][ 50]BlueprintLog: New page: Compile TestMob
+[2015.01.21-04.35.23:504][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.01.21-04.35.23:504][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.01.21-04.35.23:641][ 50]BlueprintEditorCompileResults: Info [0324.46] Compile of TestMob successful! [in 65 ms]
+[2015.01.21-04.35.37:584][599]BlueprintLog: New page: Compile TestMob
+[2015.01.21-04.35.37:875][599]BlueprintEditorCompileResults: Info [0338.75] Compile of TestMob successful! [in 73 ms]
+[2015.01.21-04.35.40:062][802]LogFMOD:Warning: Enabling live update
+[2015.01.21-04.35.40:069][802]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(577) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.01.21-04.35.40:069][802]LogFMOD:Warning: c:\jk\workspace\Build__1.5__UE4Libs_Win\lowlevel_api\platforms\win\src\fmod_output_wasapi.cpp(582) - Output requires a channel count of 2, remixing may occur.
+
+[2015.01.21-04.35.40:144][802]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C55AABB900
+[2015.01.21-04.35.40:144][802]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.01.21-04.35.40:144][802]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.01.21-04.35.40:231][802]LogPlayLevel: [PIE] Compiling BTS_mobDetectEnemy before PIE...
+[2015.01.21-04.35.40:321][802]LogPlayLevel: [PIE] Compiling BTT_mobAttackEnemy before PIE...
+[2015.01.21-04.35.40:400][802]LogPlayLevel: [PIE] Compiling BTT_mobNextRoute before PIE...
+[2015.01.21-04.35.40:477][802]LogPlayLevel: [PIE] Compiling BTT_mobWalkSpeed before PIE...
+[2015.01.21-04.35.40:582][802]LogPlayLevel: PIE:  Blueprint regeneration took 438 ms (5 blueprints)
+[2015.01.21-04.35.40:582][802]PIE: New page: PIE session: EnemyTest (Jan 20, 2015, 4:35:40 PM)
+[2015.01.21-04.35.40:592][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009788s)
+[2015.01.21-04.35.40:593][802]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2015.01.21-04.35.40:593][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EnemyTest.EnemyTest to /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest (0.010486s)
+[2015.01.21-04.35.40:650][802]LogWorld: Game class is 'TarGame_C'
+[2015.01.21-04.35.40:653][802]LogAIModule: Creating AISystem for world EnemyTest
+[2015.01.21-04.35.40:655][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EnemyTest.EnemyTest up for play (max tick rate 0) at 2015.01.20-22.35.40
+[2015.01.21-04.35.40:657][802]LogWorld: Bringing up level for play took: 0.003089
+[2015.01.21-04.35.40:664][802]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EnemyTest 1.079
+[2015.01.21-04.35.40:746][803]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C56ACDF900
+[2015.01.21-04.35.40:766][803]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C56ACDF900
+[2015.01.21-04.35.40:782][804]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C56ACDF900
+[2015.01.21-04.35.40:782][804]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C56ACDF900
+[2015.01.21-04.35.40:782][804]LogFMOD:Warning: FMODOpen Opening '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/FMOD/Desktop/Master Bank.bank' returned archive 000000C56ACDF900
+[2015.01.21-04.35.44:728][152]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.35.45:569][226]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.35.47:001][352]LogBlueprintUserMessages: Get back here!
+[2015.01.21-04.35.48:062][447]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.35.49:050][537]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.35.49:072][539]LogBlueprintUserMessages: Get back here!
+[2015.01.21-04.35.51:714][777]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.35.52:803][875]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.35.54:453][ 21]LogBlueprintUserMessages: Get back here!
+[2015.01.21-04.35.54:905][ 59]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.35.55:839][144]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.35.55:861][146]LogBlueprintUserMessages: Get back here!
+[2015.01.21-04.35.56:894][240]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.35.58:688][403]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.36.06:142][ 61]LogBlueprintUserMessages: Get back here!
+[2015.01.21-04.36.09:445][338]LogBlueprintUserMessages: I see you!
+[2015.01.21-04.36.10:038][388]LogBlueprintUserMessages: Attack!
+[2015.01.21-04.36.11:349][480]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_1.  OwnerComponent has BeginDestroyed flag
+[2015.01.21-04.36.11:349][480]LogBehaviorTree:Warning: OnCeaseRelevant called on Blueprint service None with invalid owner.  OwnerComponent: BTComponent, OwnerComponent Owner: TestMobAI_C_0.  OwnerComponent has BeginDestroyed flag
+[2015.01.21-04.36.11:368][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C55D1A9EE0
+[2015.01.21-04.36.14:132][699]LogSavePackage: Save=56.932018ms
+[2015.01.21-04.36.14:132][699]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/EnemyTestF9C5FDEA47D4E7BDD874C5AF5BCD11A5.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/Maps/EnemyTest.umap'
+[2015.01.21-04.36.14:296][699]LogFileHelpers: Saving map 'EnemyTest' took 0.483
+[2015.01.21-04.36.14:310][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestEnemy/TestMob" FILE="../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset" SILENT=true
+[2015.01.21-04.36.14:713][699]LogSavePackage: Save=302.931976ms
+[2015.01.21-04.36.14:713][699]LogSavePackage: Moving '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Saved/TestMobEE6B7FAC4BD0A6A70B995996B208EC90.tmp' to '../../../../../../Users/Dalton/Documents/Unreal Projects/TARBlueprintOnly/Content/TestEnemy/TestMob.uasset'
+[2015.01.21-04.36.16:164][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.01.21-04.36.17:943][840]Cmd: QUIT_EDITOR
+[2015.01.21-04.36.18:248][840]LogExit: Preparing to exit.
+[2015.01.21-04.36.19:249][840]LogExit: Editor shut down
+[2015.01.21-04.36.19:249][840]LogExit: Transaction tracking system shut down
+[2015.01.21-04.36.19:250][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C55DA8F4C0
+[2015.01.21-04.36.19:262][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C5625C0360
+[2015.01.21-04.36.19:262][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C562D3BD80
+[2015.01.21-04.36.19:262][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C55D094AE0
+[2015.01.21-04.36.19:263][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C54822B560
+[2015.01.21-04.36.19:263][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C55B4EC400
+[2015.01.21-04.36.19:263][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C55D48D8A0
+[2015.01.21-04.36.19:419][840]LogExit: Object subsystem successfully closed.
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module MaterialEditor (169)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (168)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module CrashTracker (167)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module SuperSearch (166)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module SceneOutliner (165)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module EditorWidgets (164)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module CollectionManager (163)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module StatsViewer (162)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module FoliageEdit (161)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module LandscapeEditor (160)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module MeshPaint (159)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module ActorPickerMode (158)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module GeometryMode (157)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module TextureAlignMode (156)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module BspMode (155)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module PlacementMode (154)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module AutomationWorker (153)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module CharacterAI (152)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (151)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module IntroTutorials (150)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (149)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module HardwareTargeting (148)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (147)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (140)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (139)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2015.01.21-04.36.19:476][840]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (136)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ProjectLauncher (131)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module Persona (120)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module Kismet (119)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module GraphEditor (118)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ClassViewer (117)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module Toolbox (116)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module ModuleUI (115)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module MovieSceneTools (114)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module OutputLog (113)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module GammaUI (112)
+[2015.01.21-04.36.19:477][840]LogModuleManager: Shutting down and abandoning module Documentation (111)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (110)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module HTTP (108)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module AnalyticsET (107)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module Analytics (106)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.01.21-04.36.19:478][840]LogModuleManager: Shutting down and abandoning module ProfilerService (103)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module TaskGraph (102)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module SlateRemote (101)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (100)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (99)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module CableComponent (98)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module MessagingDebugger (97)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (96)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (95)
+[2015.01.21-04.36.19:665][840]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2015.01.21-04.36.19:760][840]LogModuleManager: Shutting down and abandoning module FMODStudio (93)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.01.21-04.36.19:830][840]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.01.21-04.36.19:831][840]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.01.21-04.36.19:933][840]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.01.21-04.36.19:934][840]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.01.21-04.36.19:938][840]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.01.21-04.36.19:990][840]LogDerivedDataCache: Shutdown
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.01.21-04.36.19:990][840]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.21-04.36.19:991][840]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.21-04.36.19:992][840]LogExit: Exiting.
+[2015.01.21-04.36.19:997][840]Log file closed, 01/20/15 22:36:19
